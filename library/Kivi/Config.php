@@ -1,7 +1,13 @@
 <?php
 namespace Kivi;
 
-
+/**
+ * Configuration base class
+ *
+ * @package Kivi
+ * @author Vikram
+ * @version 1.0.1
+ */
 class Config implements \Countable, \Iterator {
     /**
      * Number of config items
@@ -18,21 +24,35 @@ class Config implements \Countable, \Iterator {
     protected $_index;
 
     /**
-     * Used when unsetting values during iteration to ensure we don't skip
-     * the next element
-     *
-     * @var boolean
-     */
-    protected $_skipNextIteration;
-
-    /**
      * Contains array of configuration data
      *
      * @var array
      */
     protected $_data;
 
-    protected $_extends;
+    /**
+     * This is used to track section inheritance. The keys are names of sections that
+     * extend other sections, and the values are the extended sections.
+     *
+     * @var array
+     */
+    protected $_extends = array();
+
+    /**
+     * Contains which config file sections were loaded. This is null
+     * if all sections were loaded, a string name if one section is loaded
+     * and an array of string names if multiple sections were loaded.
+     *
+     * @var mixed
+     */
+    protected $_loadedSection = null;
+
+    /**
+     * Load file error string
+     *
+     * @var null|string
+     */
+    protected $_loadFileErrorStr = null;
 
     /**
      * Constructor
@@ -75,7 +95,6 @@ class Config implements \Countable, \Iterator {
      */
     public function current()
     {
-        $this->_skipNextIteration = false;
         return current($this->_data);
     }
 
@@ -98,10 +117,6 @@ class Config implements \Countable, \Iterator {
      */
     public function next()
     {
-        if($this->_skipNextIteration) {
-            $this->_skipNextIteration = false;
-            return;
-        }
         next($this->_data);
         $this->_index++;
     }
@@ -114,7 +129,6 @@ class Config implements \Countable, \Iterator {
      */
     public function rewind()
     {
-        $this->_skipNextIteration = false;
         reset($this->_data);
         $this->_index = 0;
     }
@@ -187,18 +201,50 @@ class Config implements \Countable, \Iterator {
         return isset($this->_data[$name]);
     }
 
+    /**
+     * Extends the section with the section to be extended. Checks for circular reference error
+     *
+     * @param string $extendingSection
+     * @param string $extendedSection
+     * @throws Config\CircularReferenceException
+     */
     protected function _assertValidExtend($extendingSection, $extendedSection)
     {
         $extendedSectionCurrent = $extendedSection;
-        if(array_key_exists($extendedSectionCurrent, $this->_extends)) {
+        while(array_key_exists($extendedSectionCurrent, $this->_extends)) {
             if($this->_extends[$extendedSectionCurrent] == $extendingSection) {
-                //throw exception
+                require_once "Config/CircularReferenceException.php";
+                throw new Config\CircularReferenceException();
             }
             $extendedSectionCurrent = $this->_extends[$extendedSectionCurrent];
         }
         $this->_extends[$extendingSection] = $extendedSection;
     }
 
+    /**
+     * Handle any errors from simplexml_load_file or parse_ini_file
+     *
+     * @param int    $errno
+     * @param string $errstr
+     * @param string $errfile
+     * @param int    $errline
+     */
+    protected function _loadFileErrorHandler($errno, $errstr, $errfile, $errline)
+    {
+        if($this->_loadFileErrorStr === null) {
+            $this->_loadFileErrorStr = $errstr;
+        } else {
+            $this->_loadFileErrorStr .= (PHP_EOL . $errstr);
+        }
+    }
+
+    /**
+     * Merges the second array with the first array overwriting any existing keys
+     *
+     * @param array $firstArray
+     * @param array $secondArray
+     * @return array
+     */
     protected function _arrayMergeRecursive($firstArray, $secondArray)
     {
         if(is_array($firstArray) && is_array($secondArray)) {
