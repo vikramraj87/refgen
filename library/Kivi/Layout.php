@@ -63,6 +63,7 @@ class Layout
      *
      * @param string $mapper   String representing the placeholder
      * @param string $fileName Filename of the partial
+     * @return $this
      */
     public function addPartial($mapper, $fileName)
 	{
