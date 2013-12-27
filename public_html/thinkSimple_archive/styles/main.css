@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************************************  Resets  ****************************************/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, label, legend, caption, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a img {
+	border: none;
+}
+
+
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/***************************************  Global styles  **************************************/
+html, body{
+	width: 100%;
+	height: 100%;
+	font-family:'Open Sans', Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444;
+	margin:0 0 1px;
+	line-height: 20px;
+	background-color:white;
+	background-image:url(../images/bg.png);
+	background-position:left top;
+	background-repeat:repeat;
+
+}
+
+h1 {
+	text-align: left;
+	font-family:'Bitter', sans-serif;
+	font-size:42px;
+	margin:0;
+	padding:0;
+	line-height:36px;
+	width:140px;
+	text-transform:rcase;
+	color:#00ccff;	
+}
+
+
+h2 {
+	font-size:18px;
+	font-family:'Bitter', sans-serif;
+	margin-bottom:10px;
+	text-align:left;
+	color:#00ccff;
+	padding-bottom:8px;
+	line-height:22px;
+}
+
+
+h3{
+	font-size: 18px;
+	font-family:'Bitter', sans-serif;
+	color:#333;
+	text-align:left;
+	background-color:transparent;
+	padding-top:12px;
+	margin-bottom:9px;
+	font-weight:light;
+}
+
+.clear-fix:after {
+	content:".";
+	line-height: 0px;
+	height: 0px;
+	visibility: hidden;
+	clear: both; 
+}
+a:link, a:visited {
+	color:#663366;
+	text-decoration:none;
+}
+a:hover, a:active {
+	border-bottom:1px dotted #663366;
+}
+
+/************************************** main containers  ****************************************/
+
+#container {
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+	background-color: transparent;
+	padding: 15px 0;
+}
+
+
+.holder_content {
+	float: left;
+	width: 100%;
+	margin:6px 0 30px;
+	clear:both;
+	background: url(../images/line.png) 0 -18px no-repeat;
+}
+
+.col {
+	width:280px;
+	float:left;
+	margin-top:30px;
+	padding:0 20px;
+	text-align:justify;
+}
+
+/*********************************** Search Form ***********************************/
+#search {
+	padding:80px 0;
+}
+#search-result {
+	float:right;
+	margin:12px 20px 0 0;
+}
+div#div-search {
+	border:3px solid #00ccff;
+	border-radius:10px;
+	background:#fff;
+	padding:0 2px 0 8px;
+	width: 640px;
+	margin:0 auto;
+}
+input#img-search {
+	width:32px;
+	height:32px;
+	float:right;
+	outline:none;
+}
+input#txt-search {
+	width:600px;
+	border:none;
+	outline:none;
+	margin:0;
+	height:32px;
+	font-size:14px;
+	color:#444;
+}
+input[type=submit] {
+	padding:5px 10px;
+}
+/*********************************** Header #page-header ****************************************/
+header#page-header h2 {
+	font-size:20px;
+	margin:0;
+	padding:0;
+	color:#999;
+	letter-spacing:-0.1em;
+}
+/***********************************Search results section*************************/
+.results {
+	float: left;
+	width: 650px;
+	background:transparent;
+	padding:5px 0 0 0;
+	clear:both;
+}
+.full {
+	width:100%;
+}
+.results header h2 {
+	color:#00ccff;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+.results header h2 a:link, .results header h2 a:visited  {
+	color:#00ccff;
+	text-decoration:none;
+}
+.results header h2 a:hover, .results header h2 a:active  {
+	border-bottom:1px dotted #00ccff;
+}
+.results header h3 {
+	color:#666;
+	font-size:14px;
+	margin:0 0 5px 0;
+	padding:0;
+	
+}
+
+.abstract h3 {
+	color:#333;
+	letter-spacing:0.01em;
+}
+.abstract h4 {
+	font-weight:bold;
+	margin-top:8px;
+}
+article {
+	padding:10px;
+	text-align:justify;
+	background: url(../images/line.png) 0 -18px no-repeat;
+
+}
+p.read-more {
+	float:right;
+	margin-right:30px;
+}
+.results article:first-child {
+	background:none;
+}
+article footer {
+	margin-top:18px;
+	color:#999;
+}
+article:hover  p span.citation {
+	color:#000;
+}
+span.citation {
+    color:#000;
+}
+
+/*********************************** Sidebar ***************************************/
+#sidebar {
+	float: right;
+	width: 300px;
+	background:transparent;
+	padding:10px 0 0 0;
+	margin-top:6px;
+	font-size:12px;
+}
+
+#sidebar ol {
+	list-style-type:decimal;
+	list-style-position:inside;
+}
+#sidebar ol li {
+	margin-bottom:8px;
+}
+
+#sidebar ol li.drag-over {
+	background-color:#666;
+	color:#fff;
+}
+#sidebar ol li.dragged {
+	background-color:transparent;
+	opacity:0.4;
+	color:#333;
+}
+
+#sidebar ol#citations li a {
+	float:right;
+}
+/*********************************** Footer  ***************************************/
+
+#page-footer {
+	position: relative;
+	margin: 0 auto;
+	height:90px;
+	text-align: center;
+	clear:both;
+	width:980px;
+	padding-top: 10px;
+	background:url(../images/line.png) 0 -18px no-repeat;
+}
+/********************************** Pagination *************************************/
+ol#pagination {
+	text-align:center;
+}
+ol#pagination li {
+	display:inline-block;
+}
+ol#pagination li a, ol#pagination li span {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin:0 3px;
+	line-height:24px;
+	font-size:16px;
+	border-radius:999px;
+	color:#fff;
+	text-align:center;
+}
+ol#pagination li a:link, ol#pagination li a:visited {
+	background-color:#00ccff;
+}
+ol#pagination li a:hover, ol#pagination li a:active {
+	border-bottom:none;
+	background-color:#0AF;
+}
+ol#pagination li span {
+	background-color:#999;
+}

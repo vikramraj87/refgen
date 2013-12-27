@@ -1,0 +1,2750 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st May 2013//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_130501.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24327924</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>11</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">2090-2182</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>2013</Volume>
+                    <PubDate>
+                        <Year>2013</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Molecular biology international</Title>
+                <ISOAbbreviation>Mol Biol Int</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The RASSF1 Gene and the Opposing Effects of the RASSF1A and RASSF1C Isoforms on Cell Proliferation and Apoptosis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>145096</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">RASSF1A has been demonstrated to be a tumor suppressor, while RASSF1C is now emerging as a growth promoting protein in breast and lung cancer cells. To further highlight the dual functionality of the RASSF1 gene, we have compared the effects of RASSF1A and RASSF1C on cell proliferation and apoptosis in the presence of TNF- α . Overexpression of RASSF1C in breast and lung cancer cells reduced the effects of TNF- α on cell proliferation, apoptosis, and MST1/2 phosphorylation, while overexpression of RASSF1A had the opposite effect. We also assessed the expression of RASSF1A and RASSF1C in breast and lung tumor and matched normal tissues. We found that RASSF1A mRNA levels are significantly higher than RASSF1C mRNA levels in all normal breast and lung tissues examined. In addition, RASSF1A expression is significantly downregulated in 92% of breast tumors and in 53% of lung tumors. Conversely, RASSF1C was upregulated in 62% of breast tumors and in 47% of lung tumors. Together, these findings suggest that RASSF1C, unlike RASSF1A, is not a tumor suppressor but instead may play a role in stimulating survival in breast and lung cancer cells.</AbstractText>
+            </Abstract>
+            <Affiliation>Surgical Oncology Laboratory, Loma Linda VA Medical Center, Loma Linda, CA 92357, USA ; Department of Surgery, Loma Linda University, Loma Linda, CA 92357, USA.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Reeves</LastName>
+                    <ForeName>Mark E</ForeName>
+                    <Initials>ME</Initials>
+                </Author>
+                <Author>
+                    <LastName>Firek</LastName>
+                    <ForeName>Matthew</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Chen</LastName>
+                    <ForeName>Shin-Tai</ForeName>
+                    <Initials>ST</Initials>
+                </Author>
+                <Author>
+                    <LastName>Amaar</LastName>
+                    <ForeName>Yousef</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Mol Biol Int</MedlineTA>
+            <NlmUniqueID>101562501</NlmUniqueID>
+            <ISSNLinking>2090-2182</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>7</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1155/2013/145096</ArticleId>
+            <ArticleId IdType="pubmed">24327924</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24326101</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>11</Day>
+        </DateCreated>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Print">1929-0748</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>2</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>JMIR research protocols</Title>
+                <ISOAbbreviation>JMIR Res Protoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Initial Impact of Tailored Web-Based Messages About Cigarette Smoke and Breast Cancer Risk on Boys' and Girls' Risk Perceptions and Information Seeking: Randomized Controlled Trial.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e53</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Recent evidence indicates a causal link between both active smoking and secondhand smoke (SHS) exposure and breast cancer (BC).</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">The objective of the present study was to evaluate the initial reactions of girls and boys to tailored Web-based messages that describe the relationship between SHS and BC, using a parallel, single-blinded cluster randomized controlled trial.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">This trial was nested within a cycle of an ongoing longitudinal study of 1498 students from 74 secondary schools. Self-reported assessments were used to evaluate the impact of study messages on participants' risk perception and interest in obtaining additional information after participants were randomized by schools to control or intervention groups. The intervention group received a tailored visual message (based on gender and Aboriginal status) about BC and tobacco smoke. The control group received a standard visual message about smoking and cancer.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">SHS exposure was identified as a BC risk factor by 380/1488 (25.54%) participants, during the preintervention analysis. Compared to the female participants in the control group (491/839, 58.5%), girls who received the intervention (339/649, 52.2%) were 14% more likely to agree that exposure to SHS increased their BC risk (relative risk [RR] 1.14, 95% CI 1.07-1.21). Nonsmoking girls who received the intervention were 14% more likely to agree that starting smoking would increase their BC risk (RR 1.14, 95% CI 1.07-1.21). Compared to the male participants in control group (348/839, 41.5%), boys who received the intervention (310/649, 47.8%) were 10% more likely to agree that girls' exposure to SHS increased their BC risk (RR 1.10, 95% CI 1.02-1.18). Compared to controls, girls who received the intervention were 52% more likely to request additional information about SHS and BC (RR 1.52, 95% CI 1.12-2.06).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Brief gender-sensitive messages delivered via the Internet have the potential to increase awareness and to stimulate information seeking about the risk for BC associated with SHS.</AbstractText>
+            </Abstract>
+            <Affiliation>School of Population and Public Health, University of British Columbia, Vancouver, BC, Canada. chris.richardson@ubc.ca.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Richardson</LastName>
+                    <ForeName>Chris G</ForeName>
+                    <Initials>CG</Initials>
+                </Author>
+                <Author>
+                    <LastName>Struik</LastName>
+                    <ForeName>Laura L</ForeName>
+                    <Initials>LL</Initials>
+                </Author>
+                <Author>
+                    <LastName>Johnson</LastName>
+                    <ForeName>Kenneth C</ForeName>
+                    <Initials>KC</Initials>
+                </Author>
+                <Author>
+                    <LastName>Ratner</LastName>
+                    <ForeName>Pamela A</ForeName>
+                    <Initials>PA</Initials>
+                </Author>
+                <Author>
+                    <LastName>Gotay</LastName>
+                    <ForeName>Carolyn</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author>
+                    <LastName>Memetovic</LastName>
+                    <ForeName>Jasmina</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Okoli</LastName>
+                    <ForeName>Chizimuzo T</ForeName>
+                    <Initials>CT</Initials>
+                </Author>
+                <Author>
+                    <LastName>Bottorff</LastName>
+                    <ForeName>Joan L</ForeName>
+                    <Initials>JL</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>JMIR Res Protoc</MedlineTA>
+            <NlmUniqueID>101599504</NlmUniqueID>
+            <ISSNLinking>1929-0748</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">breast cancer</Keyword>
+            <Keyword MajorTopicYN="N">cancer prevention</Keyword>
+            <Keyword MajorTopicYN="N">gender</Keyword>
+            <Keyword MajorTopicYN="N">secondhand smoke</Keyword>
+            <Keyword MajorTopicYN="N">youth</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>10</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2013</Year>
+                <Month>10</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">v2i2e53</ArticleId>
+            <ArticleId IdType="doi">10.2196/resprot.2858</ArticleId>
+            <ArticleId IdType="pubmed">24326101</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24326000</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>11</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1934-2403</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                        <Day>10</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists</Title>
+                <ISOAbbreviation>Endocr Pract</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Comparison of Radioiodine Utilization in Adolescent and Young Adult (AYA) and Older Thyroid Cancers Patients.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-20</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">Objective: Differentiated thyroid cancer (DTC) is one of the most common cancers in adolescents and young adults (AYA: aged 15-39). Although most AYAs with DTC are considered low risk compared to older patients, there are no specific postoperative radioiodine treatment recommendations despite the potential adverse effects specific to this age group, namely secondary malignancies and difficulties with fertility. This study compares factors influencing radioiodine utilization in AYA and older patients.Methods: 5687 primary DTC patients were identified from the SEER database between 1/1/04-1/31/09. The 2009 American Thyroid Association guidelines were used to classify patients as low (LR) or intermediate/high risk (IHR) based on tumor characteristics. Multivariate logistic regression analysis was performed.Results: 56.9% of AYA (n=1963) patients received postoperative radioiodine compared to 52.2% of older (n=3724) patients (OR:1.21, CI:1.09-1.35, p=0.001). For AYA patients, having a total thyroidectomy (TT) (OR:3.53, CI:2.7-4.61, p&lt;0.001) predicted radioiodine in a multivariate model whereas LR status (OR:0.52, CI:0.43-0.63, p&lt;0.001) and northeast residence (OR:0.39, CI:0.29-0.52, p&lt;0.001) decreased the probability. All three factors similarly affected older patients in addition to an increased likelihood after lymph node dissection. Additionally, after selecting for TT (n=1077), no factor influenced the use of radioiodine for AYA patients whereas LR (OR:0.30, CI:0.21-0.43, p&lt;0.001) and northeast residence (OR:0.39, CI:0.19-0.79, p=0.008) decreased use in older patients.Conclusion: Despite their excellent prognosis, AYA thyroid cancer patients are more likely to receive postoperative radioiodine compared to older patients. Increased awareness of the unique survivorship implications for AYA patients will be an important aspect to address going forward.</AbstractText>
+            </Abstract>
+            <Affiliation>Division of Breast/Soft Tissue and Endocrine Surgery, University of Southern California Keck School of Medicine, Los Angeles, CA.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Goldfarb</LastName>
+                    <ForeName>Melanie</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Sener</LastName>
+                    <ForeName>Stephen F</ForeName>
+                    <Initials>SF</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Endocr Pract</MedlineTA>
+            <NlmUniqueID>9607439</NlmUniqueID>
+            <ISSNLinking>1530-891X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">AYA</Keyword>
+            <Keyword MajorTopicYN="N">RAI</Keyword>
+            <Keyword MajorTopicYN="N">thyroid cancer</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">N011326241T218JJ</ArticleId>
+            <ArticleId IdType="doi">10.4158/EP13343.OR</ArticleId>
+            <ArticleId IdType="pubmed">24326000</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">24324792</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>10</Day>
+        </DateCreated>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>8</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Differentially expressed transcripts and dysregulated signaling pathways and networks in african american breast cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e82460</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0082460</ELocationID>
+            <Abstract>
+                <AbstractText>African Americans (AAs) have higher mortality rate from breast cancer than that of Caucasian Americans (CAs) even when socioeconomic factors are accounted for. To better understand the driving biological factors of this health disparity, we performed a comprehensive differential gene expression analysis, including subtype- and stage-specific analysis, using the breast cancer data in the Cancer Genome Atlas (TCGA). In total, 674 unique genes and other transcripts were found differentially expressed between these two populations. The numbers of differentially expressed genes between AA and CA patients increased in each stage of tumor progression: there were 26 in stage I, 161 in stage II, and 223 in stage III. Resistin, a gene that is linked to obesity, insulin resistance, and breast cancer, was expressed more than four times higher in AA tumors. An uncharacterized, long, non-coding RNA, LOC90784, was down-regulated in AA tumors, and its expression was inversely related to cancer stage and was the lowest in triple negative AA breast tumors. Network analysis showed increased expression of a majority of components in p53 and BRCA1 subnetworks in AA breast tumor samples, and members of the aurora B and polo-like kinase signaling pathways were also highly expressed. Higher gene expression diversity was observed in more advanced stage breast tumors suggesting increased genomic instability during tumor progression. Amplified resistin expression may indicate insulin-resistant type II diabetes and obesity are associated with AA breast cancer. Expression of LOC90784 may have a protective effect on breast cancer patients, and its loss, particularly in triple negative breast cancer, could be having detrimental effects. This work helps elucidate molecular mechanisms of breast cancer health disparity and identifies putative biomarkers and therapeutic targets such as resistin, and the aurora B and polo-like kinase signaling pathways for treating AA breast cancer patients.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida, United States of America.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Stewart</LastName>
+                    <ForeName>Paul A</ForeName>
+                    <Initials>PA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luks</LastName>
+                    <ForeName>Jennifer</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Roycik</LastName>
+                    <ForeName>Mark D</ForeName>
+                    <Initials>MD</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sang</LastName>
+                    <ForeName>Qing-Xiang Amy</ForeName>
+                    <Initials>QX</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Jinfeng</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>04</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2013</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>10</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1371/journal.pone.0082460</ArticleId>
+            <ArticleId IdType="pii">PONE-D-13-40214</ArticleId>
+            <ArticleId IdType="pubmed">24324792</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">24324085</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>10</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1791-7530</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>33</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Anticancer research</Title>
+                <ISOAbbreviation>Anticancer Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Levels of circulating polychlorinated biphenyls and mammographic breast density.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>5483-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Polychlorinated biphenyls (PCBs) are ubiquitous chemicals found in the environment that accumulate in body fat and exhibit endocrine-disrupting properties. These compounds are therefore suspected of influencing breast cancer risk, but results from studies are inconsistent. To further clarify the role of PCBs in the etiology of breast cancer, the present study aimed to examine the relation of 24 PCB congener levels, which were considered individually and in combinations, with mammographic density, one of the risk factors most strongly associated with breast cancer.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">Plasma PCB levels were measured by gas chromatography coupled to mass spectrometry in 106 post-menopausal women for whom mammographic density was measured using a computer-assisted method.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Spearman correlation coefficients adjusted for potentially confounding factors (rs) show that while levels of total PCBs do not appear to be correlated with the percentage mammographic density (rs=-0.19, p=0.08), an increase in the plasma levels of congeners nos. 153, 183, 196 and combined Wolff group 3 PCBs is negatively correlated with the percentage mammographic density (rs=-0.24, p=0.03; rs=-0.30, p=0.004; rs=-0.22, p=0.04; and rs=-0.22, p=0.04 respectively).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Our results suggest that an increase in the plasma levels of some PCB congeners, in particular cytochrome P450 1A1 inducers, is associated with lower mammographic density in post-menopausal women.</AbstractText>
+            </Abstract>
+            <Affiliation>Toxicology Laboratory, Quebec National Public Health Institute, 945, avenue Wolfe, Québec, Qc, G1V 5B3 Canada. pierre.ayotte@inspq.qc.ca.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Diorio</LastName>
+                    <ForeName>Caroline</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dumas</LastName>
+                    <ForeName>Isabelle</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sandanger</LastName>
+                    <ForeName>Torkjel M</ForeName>
+                    <Initials>TM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ayotte</LastName>
+                    <ForeName>Pierre</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Greece</Country>
+            <MedlineTA>Anticancer Res</MedlineTA>
+            <NlmUniqueID>8102988</NlmUniqueID>
+            <ISSNLinking>0250-7005</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">PCB</Keyword>
+            <Keyword MajorTopicYN="N">Polychlorinated biphenyl</Keyword>
+            <Keyword MajorTopicYN="N">breast cancer</Keyword>
+            <Keyword MajorTopicYN="N">mammographic breast density</Keyword>
+            <Keyword MajorTopicYN="N">organochlorine</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">33/12/5483</ArticleId>
+            <ArticleId IdType="pubmed">24324085</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24323027</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>10</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1527-7755</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                        <Day>9</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of clinical oncology : official journal of the American Society of Clinical Oncology</Title>
+                <ISOAbbreviation>J. Clin. Oncol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Breast Implant-Associated Anaplastic Large-Cell Lymphoma: Long-Term Follow-Up of 60 Patients.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Breast implant-associated anaplastic large-cell lymphoma (ALCL) is a recently described clinicopathologic entity that usually presents as an effusion-associated fibrous capsule surrounding an implant. Less frequently, it presents as a mass. The natural history of this disease and long-term outcomes are unknown.</AbstractText>
+                <AbstractText Label="PATIENTS AND METHODS" NlmCategory="METHODS">We reviewed the literature for all published cases of breast implant-associated ALCL from 1997 to December 2012 and contacted corresponding authors to update clinical follow-up.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The median overall survival (OS) for 60 patients was 12 years (median follow-up, 2 years; range, 0-14 years). Therapeutic data were available for 55 patients: 39 patients (78%) received systemic chemotherapy, and of the 16 patients (28%) who did not receive chemotherapy, 12 patients opted for watchful waiting and four patients received radiation therapy alone. Thirty-nine (93%) of 42 patients with disease confined by the fibrous capsule achieved complete remission, compared with complete remission in 13 (72%) of 18 patients with a tumor mass. Patients with a breast mass had worse OS and progression-free survival (PFS; P = .052 and P = .03, respectively). The OS or PFS were similar between patients who received and did not receive chemotherapy (P = .44 and P = .28, respectively).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Most patients with breast implant-associated ALCL who had disease confined within the fibrous capsule achieved complete remission. Proper management for these patients may be limited to capsulectomy and implant removal. Patients who present with a mass have a more aggressive clinical course that may be fatal, justifying cytotoxic chemotherapy in addition to removal of implants.</AbstractText>
+            </Abstract>
+            <Affiliation>Roberto N. Miranda, Rashmi Kanagal-Shamanna, Luis E. Fayad, Summer E. Hanson, John T. Manning Jr, Zijun Y. Xu-Monette, Patricia Fox, Roland L. Bassett, Ken H. Young, L. Jeffrey Medeiros, The University of Texas MD Anderson Cancer Center; Alonso R. Miranda, University of Houston, Houston; Eid Mustafa, Plastic and Reconstructive Surgery, Wichita Falls; Steven Sanchez, Pathology Associates of Tyler, Tyler, TX; Mitual B. Amin, Oakland University William Beaumont School of Medicine, Royal Oak, MI; Nisreen Haideri, Saint Lukes Cancer Institute, Kansas City, MO; Govind Bhagat, Columbia University Medical Center, New York Presbyterian Hospital and Herbert Irving Comprehensive Cancer Center, New York, NY; Glen S. Brooks, Tufts University, Longmeadow; Ephram P. Hochberg, Massachusetts General Hospital; Matthew J. Carty, Brigham &amp; Women's Hospital, Boston, MA; David A. Shifrin, Advocate Medical Group Plastic Surgery, Oak Lawn, IL; Dennis P. O'Malley, Clarient Laboratories/GE Healthcare, Aliso Viejo, CA; Shiyong Li, Emory University Hospital, Atlanta, GA; John A. Keech Jr, MultiCare Regional Cancer Center, MultiCare Health Systems, Tacoma, WA; Jorge J. Castillo, The Warren Alpert Medical School of Brown University, The Miriam Hospital, Providence, RI; Dongjiu Ye, Bioreference Laboratories, Elmwood Park, NJ; Douglas Clark, New Mexico Cancer Center, Albuquerque, NM; Tariq N. Aladily, The University of Jordan, Amman, Jordan; H. Miles Prince, Chan Cheah, Peter MacCallum Cancer Centre and University of Melbourne, Melbourne, Australia; Daphne de Jong, Vrije Universiteit Medical Center; Jan Paul de Boer, the Netherlands Cancer Institute, Amsterdam, the Netherlands; Carlos E. Bacchi, Gabriela Gualco, Consultoria em Patologia, Botucatu, São Paulo, Brazil; Brady E. Beltran, Edgardo Rebagliati Martins Hospital, Lima, Peru; Zaher Chakhachiro, American University of Beirut Medical Center, Beirut, Lebanon.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Miranda</LastName>
+                    <ForeName>Roberto N</ForeName>
+                    <Initials>RN</Initials>
+                </Author>
+                <Author>
+                    <LastName>Aladily</LastName>
+                    <ForeName>Tariq N</ForeName>
+                    <Initials>TN</Initials>
+                </Author>
+                <Author>
+                    <LastName>Prince</LastName>
+                    <ForeName>H Miles</ForeName>
+                    <Initials>HM</Initials>
+                </Author>
+                <Author>
+                    <LastName>Kanagal-Shamanna</LastName>
+                    <ForeName>Rashmi</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author>
+                    <LastName>de Jong</LastName>
+                    <ForeName>Daphne</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author>
+                    <LastName>Fayad</LastName>
+                    <ForeName>Luis E</ForeName>
+                    <Initials>LE</Initials>
+                </Author>
+                <Author>
+                    <LastName>Amin</LastName>
+                    <ForeName>Mitual B</ForeName>
+                    <Initials>MB</Initials>
+                </Author>
+                <Author>
+                    <LastName>Haideri</LastName>
+                    <ForeName>Nisreen</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author>
+                    <LastName>Bhagat</LastName>
+                    <ForeName>Govind</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author>
+                    <LastName>Brooks</LastName>
+                    <ForeName>Glen S</ForeName>
+                    <Initials>GS</Initials>
+                </Author>
+                <Author>
+                    <LastName>Shifrin</LastName>
+                    <ForeName>David A</ForeName>
+                    <Initials>DA</Initials>
+                </Author>
+                <Author>
+                    <LastName>O'Malley</LastName>
+                    <ForeName>Dennis P</ForeName>
+                    <Initials>DP</Initials>
+                </Author>
+                <Author>
+                    <LastName>Cheah</LastName>
+                    <ForeName>Chan</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author>
+                    <LastName>Bacchi</LastName>
+                    <ForeName>Carlos E</ForeName>
+                    <Initials>CE</Initials>
+                </Author>
+                <Author>
+                    <LastName>Gualco</LastName>
+                    <ForeName>Gabriela</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author>
+                    <LastName>Li</LastName>
+                    <ForeName>Shiyong</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author>
+                    <LastName>Keech</LastName>
+                    <ForeName>John A</ForeName>
+                    <Initials>JA</Initials>
+                    <Suffix>Jr</Suffix>
+                </Author>
+                <Author>
+                    <LastName>Hochberg</LastName>
+                    <ForeName>Ephram P</ForeName>
+                    <Initials>EP</Initials>
+                </Author>
+                <Author>
+                    <LastName>Carty</LastName>
+                    <ForeName>Matthew J</ForeName>
+                    <Initials>MJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>Hanson</LastName>
+                    <ForeName>Summer E</ForeName>
+                    <Initials>SE</Initials>
+                </Author>
+                <Author>
+                    <LastName>Mustafa</LastName>
+                    <ForeName>Eid</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author>
+                    <LastName>Sanchez</LastName>
+                    <ForeName>Steven</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author>
+                    <LastName>Manning</LastName>
+                    <ForeName>John T</ForeName>
+                    <Initials>JT</Initials>
+                    <Suffix>Jr</Suffix>
+                </Author>
+                <Author>
+                    <LastName>Xu-Monette</LastName>
+                    <ForeName>Zijun Y</ForeName>
+                    <Initials>ZY</Initials>
+                </Author>
+                <Author>
+                    <LastName>Miranda</LastName>
+                    <ForeName>Alonso R</ForeName>
+                    <Initials>AR</Initials>
+                </Author>
+                <Author>
+                    <LastName>Fox</LastName>
+                    <ForeName>Patricia</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author>
+                    <LastName>Bassett</LastName>
+                    <ForeName>Roland L</ForeName>
+                    <Initials>RL</Initials>
+                </Author>
+                <Author>
+                    <LastName>Castillo</LastName>
+                    <ForeName>Jorge J</ForeName>
+                    <Initials>JJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>Beltran</LastName>
+                    <ForeName>Brady E</ForeName>
+                    <Initials>BE</Initials>
+                </Author>
+                <Author>
+                    <LastName>Paul de Boer</LastName>
+                    <ForeName>Jan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Chakhachiro</LastName>
+                    <ForeName>Zaher</ForeName>
+                    <Initials>Z</Initials>
+                </Author>
+                <Author>
+                    <LastName>Ye</LastName>
+                    <ForeName>Dongjiu</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author>
+                    <LastName>Clark</LastName>
+                    <ForeName>Douglas</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author>
+                    <LastName>Young</LastName>
+                    <ForeName>Ken H</ForeName>
+                    <Initials>KH</Initials>
+                </Author>
+                <Author>
+                    <LastName>Medeiros</LastName>
+                    <ForeName>L Jeffrey</ForeName>
+                    <Initials>LJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>9</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Clin Oncol</MedlineTA>
+            <NlmUniqueID>8309333</NlmUniqueID>
+            <ISSNLinking>0732-183X</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">JCO.2013.52.7911</ArticleId>
+            <ArticleId IdType="doi">10.1200/JCO.2013.52.7911</ArticleId>
+            <ArticleId IdType="pubmed">24323027</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24319631</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>9</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">2157-7633</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>Suppl 7</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Dec</Month>
+                        <Day>16</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of stem cell research &amp; therapy</Title>
+                <ISOAbbreviation>J Stem Cell Res Ther</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Systems and Network Pharmacology Approaches to Cancer Stem Cells Research and Therapy.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="pii">10413</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">The cancer stem cell (CSC) hypothesis is increasingly being accepted as a model to explain for the functional heterogeneity that is commonly observed in solid tumors. According to this hypothesis, there exists a hierarchical organization of cells within the tumor, in which a differential subpopulation of stem-like cells is responsible for sustaining and recurrence of tumor growth. CSCs have been shown to exist in a variety of solid tumors especially those with known resistant phenotypes such as breast, prostate and pancreatic adenocarcinoma (PDAC). In all these models, the commonality of deregulation of three crucial pathways; Wnt, notch and hedgehog that maintain CSC self-renewal capacity is emerging. Collectively these major pathways and have been linked to the observed resistance of CSC to chemotherapy and radiotherapy. The existing lack of knowledge and our incomplete understanding of the molecular signatures associated with CSCs highlight the need for better approaches in both isolation and identification of unique pathways associated with these cells. In this direction, computational biology, especially systems and network approaches, have proven to be of great utility in unraveling pathway complexities such as those associated with CSCs. With highlights on the most up-to-date molecular, network, cellular, clinical, and therapeutic cancer research findings, this article tends to provide a wealth of insights on systems and network biology approaches to CSC marker identification, the mechanism through which they evade treatment as well as therapeutic approaches that will help in conquering these elusive cells in incurable and refractory malignancies.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Biochemistry, Aligarh Muslim University, Aligarh, Uttar Pradesh, India.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Muqbil</LastName>
+                    <ForeName>Irfana</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author>
+                    <LastName>Bao</LastName>
+                    <ForeName>Ginny W</ForeName>
+                    <Initials>GW</Initials>
+                </Author>
+                <Author>
+                    <LastName>El-Kharraj</LastName>
+                    <ForeName>Rkya</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author>
+                    <LastName>Shah</LastName>
+                    <ForeName>Minjel</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Mohammad</LastName>
+                    <ForeName>Ramzi M</ForeName>
+                    <Initials>RM</Initials>
+                </Author>
+                <Author>
+                    <LastName>Sarkar</LastName>
+                    <ForeName>Fazlul H</ForeName>
+                    <Initials>FH</Initials>
+                </Author>
+                <Author>
+                    <LastName>Azmi</LastName>
+                    <ForeName>Asfar S</ForeName>
+                    <Initials>AS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <GrantList>
+                <Grant>
+                    <GrantID>R01 CA109389</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Stem Cell Res Ther</MedlineTA>
+            <NlmUniqueID>101586297</NlmUniqueID>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Bioinformatics</Keyword>
+            <Keyword MajorTopicYN="N">Computational biology</Keyword>
+            <Keyword MajorTopicYN="N">Network medicine</Keyword>
+            <Keyword MajorTopicYN="N">Network pharmacology</Keyword>
+            <Keyword MajorTopicYN="N">Systems biology</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.4172/2157-7633.S7-005</ArticleId>
+            <ArticleId IdType="pubmed">24319631</ArticleId>
+            <ArticleId IdType="pmc">PMC3852409</ArticleId>
+            <ArticleId IdType="mid">NIHMS444888</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24319544</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>9</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1948-5956</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>4</Volume>
+                    <Issue>7</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Jul</Month>
+                        <Day>26</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of cancer science &amp; therapy</Title>
+                <ISOAbbreviation>J Cancer Sci Ther</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Human Breast Cancer Stem Cells Have Significantly Higher Rate of Clathrin-Independent and Caveolin-Independent Endocytosis than the Differentiated Breast Cancer Cells.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>214-222</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">Breast Cancer Stem (BCS) cells play critical roles in self-renewal, Multi Drug Resistance (MDR), differentiation and generation of secondary tumors. Conventional chemotherapy may efficiently kill the bulk of differentiated drug sensitive breast cancer cells, but not the MDR self-renewable BCS cells, leading to enrichment of the MDR BCS cells. In order to target the MDR BCS cells, we have isolated: 1) BCS cells from either breast cancer cell lines or fresh breast cancer specimens; 2) ATP binding cassette (ABC) transporter group G number 2 (ABCG2)-specific aptamers; and 3) BCS cell-binding aptamers. Interestingly, ABCG2-specific aptamers labeled the membrane surface of the ABCG2-expressing baby hamster kidney (BHK) cells, but stained whole cells of the BCS cells derived from mammospheres, implying that BCS cells might have much higher rate of endocytosis than the ABCG2-expressing BHK cells. In addition, 5D3, a monoclonal antibody that recognizes the extracellular loops of ABCG2 protein, also stained whole BCS cells. Furthermore, BCS cell-binding aptamers stained whole BCS cells, but not the differentiated breast cancer MCF-7 cells. All these results support above conclusion that BCS cells might have high rate of endocytosis. Further experiments performed with aptamers and human transferrin or lactosylceramide showed that BCS cells do have much higher endocytosis rate than the differentiated breast cancer cells. Interestingly, clathrin dependent endocytosis inhibitors, such as monodansylcadaverine or sucrose, or caveolin-dependent endocytosis inhibitors, such as methyl-β-cyclodextrin or genistein, can inhibit the internalization of transferrin or lactosylceramide into the differentiated breast cancer cells, but cannot block the internalization of these compounds into the BCS cells, suggesting that BCS cells undergo clathrin-independent and caveolin-independent endocytosis. Taken together, our data suggest that BCS cells have high rate of endocytosis and open the possibilities for delivering therapeutic agents directly into the MDR BCS cells with aptamer-coated liposomes.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Biochemistry and Molecular Biology, Mayo Clinic College of Medicine, Mayo Clinic Arizona, Scottsdale, AZ 85259, USA.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Palaniyandi</LastName>
+                    <ForeName>Kanagaraj</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author>
+                    <LastName>Pockaj</LastName>
+                    <ForeName>Barbara A</ForeName>
+                    <Initials>BA</Initials>
+                </Author>
+                <Author>
+                    <LastName>Gendler</LastName>
+                    <ForeName>Sandra J</ForeName>
+                    <Initials>SJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>Chang</LastName>
+                    <ForeName>Xiu-Bao</ForeName>
+                    <Initials>XB</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <GrantList>
+                <Grant>
+                    <GrantID>R01 CA089078</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Cancer Sci Ther</MedlineTA>
+            <NlmUniqueID>101526958</NlmUniqueID>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ABCG2</Keyword>
+            <Keyword MajorTopicYN="N">Aptamer</Keyword>
+            <Keyword MajorTopicYN="N">BCS cell</Keyword>
+            <Keyword MajorTopicYN="N">Breast cancer</Keyword>
+            <Keyword MajorTopicYN="N">Endocytosis</Keyword>
+            <Keyword MajorTopicYN="N">Mammosphere</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>7</Month>
+                <Day>26</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>7</Month>
+                <Day>26</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">24319544</ArticleId>
+            <ArticleId IdType="pmc">PMC3853112</ArticleId>
+            <ArticleId IdType="mid">NIHMS416479</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24319297</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>9</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0022-4537</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>68</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Jun</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of social issues</Title>
+                <ISOAbbreviation>J Soc Issues</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Life-Threatening Disparities: The Treatment of Black and White Cancer Patients.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1111/j.1540-4560.2012.01751.x</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">Cancer mortality and survival rates are much poorer for Black patients than for White patients. We argue that Black-White treatment disparities are a major reason for these disparities. We examine three specific kinds of Black-White treatment disparities: disparities in information exchange in oncology interactions, disparities in the treatment of breast cancer, and disparities in the treatment of clinically localized prostate cancer. In the final section, we discuss possible causes of these disparities, with a primary focus on communication within medical interactions and the role that race-related attitudes and beliefs may play in the quality of communication in these interactions.</AbstractText>
+            </Abstract>
+            <Affiliation>Karmanos Cancer Institute Wayne State University University of Michigan.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Penner</LastName>
+                    <ForeName>Louis A</ForeName>
+                    <Initials>LA</Initials>
+                </Author>
+                <Author>
+                    <LastName>Eggly</LastName>
+                    <ForeName>Susan</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author>
+                    <LastName>Griggs</LastName>
+                    <ForeName>Jennifer J</ForeName>
+                    <Initials>JJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>Underwood</LastName>
+                    <ForeName>Willie</ForeName>
+                    <Initials>W</Initials>
+                    <Suffix>3rd</Suffix>
+                </Author>
+                <Author>
+                    <LastName>Orom</LastName>
+                    <ForeName>Heather</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author>
+                    <LastName>Albrecht</LastName>
+                    <ForeName>Terrance L</ForeName>
+                    <Initials>TL</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <GrantList>
+                <Grant>
+                    <GrantID>U01 CA114583</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Soc Issues</MedlineTA>
+            <NlmUniqueID>0376371</NlmUniqueID>
+            <ISSNLinking>0022-4537</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>25</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>25</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1111/j.1540-4560.2012.01751.x</ArticleId>
+            <ArticleId IdType="pubmed">24319297</ArticleId>
+            <ArticleId IdType="pmc">PMC3849720</ArticleId>
+            <ArticleId IdType="mid">NIHMS511979</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24317238</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>9</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1536-3708</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                        <Day>5</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Annals of plastic surgery</Title>
+                <ISOAbbreviation>Ann Plast Surg</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Patient-Reported Outcomes and Satisfaction After Total Skin-Sparing Mastectomy and Immediate Expander-Implant Reconstruction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Total skin-sparing mastectomy (TSSM) with preservation of the nipple-areolar complex skin has become more widely accepted. Few studies looking at outcomes after TSSM and immediate reconstruction have focused on patient-reported outcomes and trends in satisfaction over time.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Prospective evaluation of patients undergoing TSSM and immediate expander-implant reconstruction was performed. Patients completed the BREAST-Q questionnaire preoperatively and again at 1 month, 6 months, and 1 year postoperatively. Mean scores in each BREAST-Q domain were assessed at each time point. Domains were scored on a 0- to 100-point scale.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Survey completion rate was 55%; BREAST-Q scores were calculated from responses from 28 patients. Mean overall satisfaction with breasts declined at 1 month (69.8 to 46.1, P &lt; 0.001), but then returned to baseline by 1 year. Mean scores also declined at 1 month in the psychosocial (75.7-67.4, P = 0.2) and sexual (58.3-46.7, P = 0.06) domains, but returned to baseline by 1 year. Mean nipple satisfaction score was 76.4 at 1 year, with 89% of patients reporting satisfaction with nipple appearance. Satisfaction with nipple position and sensation was lower, with only 56% of patients reporting satisfaction with nipple position and 40% with nipple sensation.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">After TSSM and immediate reconstruction, patient satisfaction with their breasts, as well as psychosocial and sexual well-being, returns to baseline by 1 year. Although overall nipple satisfaction is high, patients often report dissatisfaction with nipple position and sensation; appropriate preoperative counseling is important to set realistic expectations.</AbstractText>
+            </Abstract>
+            <Affiliation>From the Divisions of *Plastic and Reconstructive Surgery, and †Breast Surgery, Department of Surgery, University of California, San Francisco, San Francisco, CA; and ‡Division of Breast Surgery, Department of Surgery, Duke University Medical Center, Durham, NC.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Peled</LastName>
+                    <ForeName>Anne Warren</ForeName>
+                    <Initials>AW</Initials>
+                </Author>
+                <Author>
+                    <LastName>Duralde</LastName>
+                    <ForeName>Erin</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author>
+                    <LastName>Foster</LastName>
+                    <ForeName>Robert D</ForeName>
+                    <Initials>RD</Initials>
+                </Author>
+                <Author>
+                    <LastName>Fiscalini</LastName>
+                    <ForeName>Allison Stover</ForeName>
+                    <Initials>AS</Initials>
+                </Author>
+                <Author>
+                    <LastName>Esserman</LastName>
+                    <ForeName>Laura J</ForeName>
+                    <Initials>LJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>Hwang</LastName>
+                    <ForeName>E Shelley</ForeName>
+                    <Initials>ES</Initials>
+                </Author>
+                <Author>
+                    <LastName>Sbitany</LastName>
+                    <ForeName>Hani</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Ann Plast Surg</MedlineTA>
+            <NlmUniqueID>7805336</NlmUniqueID>
+            <ISSNLinking>0148-7043</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1097/SAP.0000000000000020</ArticleId>
+            <ArticleId IdType="pubmed">24317238</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24317179</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>9</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1460-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                        <Day>7</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the National Cancer Institute</Title>
+                <ISOAbbreviation>J. Natl. Cancer Inst.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Lifetime Cigarette Smoking and Breast Cancer Prognosis in the After Breast Cancer Pooling Project.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">There is controversy on whether former smokers have increased risk for breast cancer recurrence or all-cause mortality, regardless of how much they smoked.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Data were from three US cohorts in the After Breast Cancer Pooling Project, with detailed information on smoking among 9975 breast cancer survivors. Smoking was assessed an average of 2 years after diagnosis. Delayed entry Cox proportional hazards models were used to examine the relationships of smoking status, cigarettes per day, years of smoking, and pack years with breast cancer prognosis. Endpoints included breast cancer recurrence (n = 1727), breast cancer mortality (n = 1059), and overall mortality (n = 1803).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Compared with never smokers, former smokers with less than 20 pack-years of exposure had no increased risk of any outcome. However, former smokers with 20 to less than 34.9 pack-years of exposure had a 22% increased risk of breast cancer recurrence (hazard ratio [HR] = 1.22; 95% confidence interval [CI] = 1.01 to 1.48) and a 26% increased risk of all-cause mortality (HR = 1.26; 95% CI = 1.07 to 1.48). For former smokers with 35 or more pack-years of exposure, the probability of recurrence increased by 37% (HR = 1.37; 95% CI = 1.13 to 1.66), breast cancer mortality increased by 54% (HR = 1.54; 95% CI = 1.24 to 1.91), and all-cause mortality increased by 68% (HR = 1.68; 95% CI = 1.44 to 1.96). Current smoking increased the probability of recurrence by 41% (HR = 1.41; 95% CI = 1.16 to 1.71), increased breast cancer mortality by 60% (HR = 1.61; 95% CI = 1.28 to 2.03), and doubled the risk of all-cause mortality (HR = 2.17; 95% CI = 1.85 to 2.54).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Lifetime cigarette smoking was statistically significantly associated with a poor prognosis among women diagnosed with breast cancer, dose-dependent increased risks of recurrence, and breast cancer and all-cause mortality.</AbstractText>
+            </Abstract>
+            <Affiliation>Affiliations of authors: Cancer Prevention and Control Program, Moores UCSD Cancer Center, University of California-San Diego, La Jolla, CA (JPP, REP, CMS, SWF, LN); Division of Research, Kaiser Permanente, Oakland, CA (BJC); Division of Epidemiology, Department of Medicine, Vanderbilt University School of Medicine, Nashville, TN (SJN, X-OS); Channing Laboratory, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA (EMP, WYC); Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA (WYC).</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Pierce</LastName>
+                    <ForeName>John P</ForeName>
+                    <Initials>JP</Initials>
+                </Author>
+                <Author>
+                    <LastName>Patterson</LastName>
+                    <ForeName>Ruth E</ForeName>
+                    <Initials>RE</Initials>
+                </Author>
+                <Author>
+                    <LastName>Senger</LastName>
+                    <ForeName>Carolyn M</ForeName>
+                    <Initials>CM</Initials>
+                </Author>
+                <Author>
+                    <LastName>Flatt</LastName>
+                    <ForeName>Shirley W</ForeName>
+                    <Initials>SW</Initials>
+                </Author>
+                <Author>
+                    <LastName>Caan</LastName>
+                    <ForeName>Bette J</ForeName>
+                    <Initials>BJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>Natarajan</LastName>
+                    <ForeName>Loki</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author>
+                    <LastName>Nechuta</LastName>
+                    <ForeName>Sarah J</ForeName>
+                    <Initials>SJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>Poole</LastName>
+                    <ForeName>Elizabeth M</ForeName>
+                    <Initials>EM</Initials>
+                </Author>
+                <Author>
+                    <LastName>Shu</LastName>
+                    <ForeName>Xiao-Ou</ForeName>
+                    <Initials>XO</Initials>
+                </Author>
+                <Author>
+                    <LastName>Chen</LastName>
+                    <ForeName>Wendy Y</ForeName>
+                    <Initials>WY</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Natl Cancer Inst</MedlineTA>
+            <NlmUniqueID>7503089</NlmUniqueID>
+            <ISSNLinking>0027-8874</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">djt359</ArticleId>
+            <ArticleId IdType="doi">10.1093/jnci/djt359</ArticleId>
+            <ArticleId IdType="pubmed">24317179</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">24316932</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1672-7347</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>38</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences</Title>
+                <ISOAbbreviation>Zhong Nan Da Xue Xue Bao Yi Xue Ban</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[Association between CD24 polymorphism and genetic susceptibility to breast cancer: a case-control study].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1122-9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3969/j.issn.1672-7347.2013.11.007</ELocationID>
+            <Abstract>
+                <AbstractText>Objective: To evaluate the association between CD24 polymorphism and genetic susceptibility to breast cancer in Chongqing women of Han nationality. Methods: In the case-control study, singlenucleotide polymorphism of CD24 (rs3838646 and rs52812045) was genotyped by Sequenom MassArray®iPLEX GOLD System in 170 patients with breast cancer and 178 healthy controls. Data were analyzed via t test, Chi-square test, and logistic regression analysis. Results: The distribution of CD24 rs3838646 genotype and allelotype had no significant difference between the patients with breast cancer and healthy controls (χ2=3.54, P=0.17; χ2=2.29, P=0.13). Stratified by menstruation status, premenopausal individuals carrying CD24 rs3838646 Del allele significantly reduced the risk (OR=0.51, 95% CI 0.26-1.00, P=0.0485) of breast cancer compared with the individuals carrying CD24 CA/CA genotype. The distribution of CD24 rs52812045 genotypes and allelotypes had no significant difference between the patients with breast cancer and healthy controls (χ2=5.37, P=0.07; χ2=3.05, P=0.08). Compared with C/C homozygotes, CD24 rs52812045 T/T homozygotes had a significantly reduced risk (OR=0.47, 95% CI 0.23-0.95; P=0.04) for breast cancer. Conclusion: CD24 polymorphism may be a marker for susceptibility to breast cancer in Han population in southwestern China. CD24 polymorphisms may be associated with a reduced risk of breast cancer in Chinese population. Further studies are needed to confirm these findings.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Breast Surgery, Chongqing Cancer Institute, Chongqing 400030, China.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>Xin</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cao</LastName>
+                    <ForeName>Yong</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luo</LastName>
+                    <ForeName>Jie</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zeng</LastName>
+                    <ForeName>Xiaohua</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+            </AuthorList>
+            <Language>chi</Language>
+            <PublicationTypeList>
+                <PublicationType>English Abstract</PublicationType>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>China</Country>
+            <MedlineTA>Zhong Nan Da Xue Xue Bao Yi Xue Ban</MedlineTA>
+            <NlmUniqueID>101230586</NlmUniqueID>
+            <ISSNLinking>1672-7347</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.3969/j.issn.1672-7347.2013.11.007</ArticleId>
+            <ArticleId IdType="pubmed">24316932</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24315382</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>9</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-1883</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Nov</Month>
+                        <Day>8</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>American journal of surgery</Title>
+                <ISOAbbreviation>Am. J. Surg.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The implementation of a surgeon-directed quality improvement strategy in breast cancer surgery.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="pii">S0002-9610(13)00644-2</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.amjsurg.2013.08.032</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The investigators designed a sustained, surgeon-directed, iterative project to improve the quality of breast cancer surgery in south central Ontario.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The strategy included audit and feedback of surgeon-selected quality indicators, workshops, and tailoring interviews. Workshops were held to discuss quality improvement strategies, select quality indicators, review audited results, and select interventions for subsequent implementation. Semistructured tailoring interviews were conducted to identify facilitators and barriers to improved quality. All presentations and results were disseminated to all surgeons performing breast surgery in the study region.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Forty-four surgeons performing breast surgery across 12 hospitals are involved in the project. Five workshops have been held since 2005. Surgeons' enthusiasm and involvement in the project have been positive. Interim results demonstrated that over 4 audit cycles (2006-2010), the preoperative core biopsy rate increased from 73% to 92%. The tailoring interviews indicated that 18 of 21 surgeons performed preoperative core biopsies.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This project highlights the feasibility of a surgeon-directed, iterative quality improvement strategy in breast cancer surgery. Interim results demonstrate consistent improvements in a key selected quality indicator.</AbstractText>
+                <CopyrightInformation>Copyright © 2013 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Department of Surgery, McMaster University and St Joseph's Healthcare, 50 Charlton Avenue East, G802, Hamilton, ON L8N 4A6, Canada. Electronic address: lovricsp@mcmaster.ca.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Lovrics</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author>
+                    <LastName>Hodgson</LastName>
+                    <ForeName>Nicole</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author>
+                    <LastName>O'Brien</LastName>
+                    <ForeName>Mary Ann</ForeName>
+                    <Initials>MA</Initials>
+                </Author>
+                <Author>
+                    <LastName>Thabane</LastName>
+                    <ForeName>Lehana</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author>
+                    <LastName>Cornacchi</LastName>
+                    <ForeName>Sylvie</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author>
+                    <LastName>Coates</LastName>
+                    <ForeName>Angela</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author>
+                    <LastName>Heller</LastName>
+                    <ForeName>Barbara</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author>
+                    <LastName>Reid</LastName>
+                    <ForeName>Susan</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author>
+                    <LastName>Sanders</LastName>
+                    <ForeName>Kenneth</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author>
+                    <LastName>Simunovic</LastName>
+                    <ForeName>Marko</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>8</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Am J Surg</MedlineTA>
+            <NlmUniqueID>0370473</NlmUniqueID>
+            <ISSNLinking>0002-9610</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Audit and feedback</Keyword>
+            <Keyword MajorTopicYN="N">Breast cancer surgery</Keyword>
+            <Keyword MajorTopicYN="N">Continuing medical education</Keyword>
+            <Keyword MajorTopicYN="N">Core biopsy</Keyword>
+            <Keyword MajorTopicYN="N">Quality indicators</Keyword>
+            <Keyword MajorTopicYN="N">Tailoring</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>4</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2013</Year>
+                <Month>7</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0002-9610(13)00644-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.amjsurg.2013.08.032</ArticleId>
+            <ArticleId IdType="pubmed">24315382</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24315345</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>9</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1096-0023</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                        <Day>3</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Cytokine</Title>
+                <ISOAbbreviation>Cytokine</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Association between an interleukin 1 receptor, type I promoter polymorphism and self-reported attentional function in women with breast cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="pii">S1043-4666(13)00753-9</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.cyto.2013.11.003</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">Subgroups of patients with breast cancer may be at greater risk for cytokine-induced changes in cognitive function after diagnosis and during treatment. The purposes of this study were to identify subgroups of patients with distinct trajectories of attentional function and evaluate for phenotypic and genotypic (i.e., cytokine gene polymorphisms) predictors of subgroup membership. Self-reported attentional function was evaluated in 397 patients with breast cancer using the Attentional Function Index before surgery and for six months after surgery (i.e., seven time points). Using growth mixture modeling, three attentional function latent classes were identified: High (41.6%), Moderate (25.4%), and Low-moderate (33.0%). Patients in the Low-moderate class were significantly younger than those in the High class, with more comorbidities and lower functional status than the other two classes. No differences were found among the classes in years of education, race/ethnicity, or other clinical characteristics. DNA was recovered from 302 patients' samples. Eighty-two single nucleotide polymorphisms among 15 candidate genes were included in the genetic association analyses. After controlling for age, comorbidities, functional status, and population stratification due to race/ethnicity, IL1R1 rs949963 remained a significant genotypic predictor of class membership in the multivariable model. Carrying the rare &quot;A&quot; allele (i.e., GA+AA) was associated with a twofold increase in the odds of belonging to a lower attentional function class (OR: 1.98; 95% CI: 1.18, 3.30; p=.009). Findings provide evidence of subgroups of women with breast cancer who report distinct trajectories of attentional function and of a genetic association between subgroup membership and an IL1R1 promoter polymorphism.</AbstractText>
+                <CopyrightInformation>Copyright © 2013 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>School of Nursing, University of Pittsburgh, 3500 Victoria Street, Pittsburgh, PA 15261, United States. Electronic address: jdm150@pitt.edu.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Merriman</LastName>
+                    <ForeName>John D</ForeName>
+                    <Initials>JD</Initials>
+                </Author>
+                <Author>
+                    <LastName>Aouizerat</LastName>
+                    <ForeName>Bradley E</ForeName>
+                    <Initials>BE</Initials>
+                </Author>
+                <Author>
+                    <LastName>Cataldo</LastName>
+                    <ForeName>Janine K</ForeName>
+                    <Initials>JK</Initials>
+                </Author>
+                <Author>
+                    <LastName>Dunn</LastName>
+                    <ForeName>Laura</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author>
+                    <LastName>Cooper</LastName>
+                    <ForeName>Bruce A</ForeName>
+                    <Initials>BA</Initials>
+                </Author>
+                <Author>
+                    <LastName>West</LastName>
+                    <ForeName>Claudia</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author>
+                    <LastName>Paul</LastName>
+                    <ForeName>Steven M</ForeName>
+                    <Initials>SM</Initials>
+                </Author>
+                <Author>
+                    <LastName>Baggott</LastName>
+                    <ForeName>Christina R</ForeName>
+                    <Initials>CR</Initials>
+                </Author>
+                <Author>
+                    <LastName>Dhruva</LastName>
+                    <ForeName>Anand</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author>
+                    <LastName>Kober</LastName>
+                    <ForeName>Kord</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author>
+                    <LastName>Langford</LastName>
+                    <ForeName>Dale J</ForeName>
+                    <Initials>DJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>Leutwyler</LastName>
+                    <ForeName>Heather</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author>
+                    <LastName>Ritchie</LastName>
+                    <ForeName>Christine S</ForeName>
+                    <Initials>CS</Initials>
+                </Author>
+                <Author>
+                    <LastName>Abrams</LastName>
+                    <ForeName>Gary</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author>
+                    <LastName>Dodd</LastName>
+                    <ForeName>Marylin</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Elboim</LastName>
+                    <ForeName>Charles</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author>
+                    <LastName>Hamolsky</LastName>
+                    <ForeName>Deborah</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author>
+                    <LastName>Melisko</LastName>
+                    <ForeName>Michelle</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Miaskowski</LastName>
+                    <ForeName>Christine</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <GrantList>
+                <Grant>
+                    <GrantID>F31 NR012604</GrantID>
+                    <Acronym>NR</Acronym>
+                    <Agency>NINR NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 CA107091</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 CA118658</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32 NR011972</GrantID>
+                    <Acronym>NR</Acronym>
+                    <Agency>NINR NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Cytokine</MedlineTA>
+            <NlmUniqueID>9005353</NlmUniqueID>
+            <ISSNLinking>1043-4666</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">AFI</Keyword>
+            <Keyword MajorTopicYN="N">AIMs</Keyword>
+            <Keyword MajorTopicYN="N">Attention</Keyword>
+            <Keyword MajorTopicYN="N">Attentional Function Index</Keyword>
+            <Keyword MajorTopicYN="N">BIC</Keyword>
+            <Keyword MajorTopicYN="N">BLRT</Keyword>
+            <Keyword MajorTopicYN="N">BMI</Keyword>
+            <Keyword MajorTopicYN="N">Bayesian information criterion</Keyword>
+            <Keyword MajorTopicYN="N">Breast cancer</Keyword>
+            <Keyword MajorTopicYN="N">CI</Keyword>
+            <Keyword MajorTopicYN="N">CNS</Keyword>
+            <Keyword MajorTopicYN="N">Cytokine genes</Keyword>
+            <Keyword MajorTopicYN="N">DNA</Keyword>
+            <Keyword MajorTopicYN="N">GMM</Keyword>
+            <Keyword MajorTopicYN="N">Inflammation</Keyword>
+            <Keyword MajorTopicYN="N">Interleukin 1 receptor, type I</Keyword>
+            <Keyword MajorTopicYN="N">KPS</Keyword>
+            <Keyword MajorTopicYN="N">Karnofsky Performance Status</Keyword>
+            <Keyword MajorTopicYN="N">LD</Keyword>
+            <Keyword MajorTopicYN="N">MAF</Keyword>
+            <Keyword MajorTopicYN="N">OR</Keyword>
+            <Keyword MajorTopicYN="N">SCQ</Keyword>
+            <Keyword MajorTopicYN="N">SNP</Keyword>
+            <Keyword MajorTopicYN="N">Self-administered Comorbidity Questionnaire</Keyword>
+            <Keyword MajorTopicYN="N">VLMR</Keyword>
+            <Keyword MajorTopicYN="N">Vuong-Lo-Mendell-Rubin likelihood ratio test</Keyword>
+            <Keyword MajorTopicYN="N">ancestry informative markers</Keyword>
+            <Keyword MajorTopicYN="N">body mass index</Keyword>
+            <Keyword MajorTopicYN="N">bootstrapped likelihood ratio test</Keyword>
+            <Keyword MajorTopicYN="N">central nervous system</Keyword>
+            <Keyword MajorTopicYN="N">confidence interval</Keyword>
+            <Keyword MajorTopicYN="N">deoxyribonucleic acid</Keyword>
+            <Keyword MajorTopicYN="N">growth mixture modeling</Keyword>
+            <Keyword MajorTopicYN="N">linkage disequilibrium</Keyword>
+            <Keyword MajorTopicYN="N">minor allele frequency</Keyword>
+            <Keyword MajorTopicYN="N">odds ratio</Keyword>
+            <Keyword MajorTopicYN="N">single nucleotide polymorphism</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2013</Year>
+                <Month>10</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S1043-4666(13)00753-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cyto.2013.11.003</ArticleId>
+            <ArticleId IdType="pubmed">24315345</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24312699</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>6</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1948-5875</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>4</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Nov</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>ACS medicinal chemistry letters</Title>
+                <ISOAbbreviation>ACS Med Chem Lett</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Analogs of the Allosteric Heat Shock Protein 70 (Hsp70) Inhibitor, MKT-077, as Anti-Cancer Agents.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1021/ml400204n</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">The rhodacyanine, MKT-077, has anti-proliferative activity against cancer cell lines through its ability to inhibit members of the heat shock protein 70 (Hsp70) family of molecular chaperones. However, MKT-077 is rapidly metabolized, which limits its use as either a chemical probe or potential therapeutic. We report the synthesis and characterization of MKT-077 analogs designed for greater stability. The most potent molecules, such as 30 (JG-98), were at least 3-fold more active than MKT-077 against the breast cancer cell lines MDA-MB-231 and MCF-7 (EC50 values of 0.4 ± 0.03 μM and 0.7 ± 0.2 μM, respectively). The analogs modestly destabilized the chaperone &quot;clients&quot;, Akt1 and Raf1, and induced apoptosis in these cells. Further, the microsomal half-life of JG-98 was improved at least 7-fold (t1/2 = 37 min) compared to MKT-077 (t1/2 &lt; 5 min). Finally, NMR titration experiments suggested that these analogs bind an allosteric site that is known to accommodate MKT-077. These studies advance MKT-077 analogs as chemical probes for studying Hsp70's roles in cancer.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Pharmaceutical Chemistry, University of California at San Francisco, San Francisco, CA 94158.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Li</LastName>
+                    <ForeName>Xiaokai</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author>
+                    <LastName>Srinivasan</LastName>
+                    <ForeName>Sharan R</ForeName>
+                    <Initials>SR</Initials>
+                </Author>
+                <Author>
+                    <LastName>Connarn</LastName>
+                    <ForeName>Jamie</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Ahmad</LastName>
+                    <ForeName>Atta</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author>
+                    <LastName>Young</LastName>
+                    <ForeName>Zapporah T</ForeName>
+                    <Initials>ZT</Initials>
+                </Author>
+                <Author>
+                    <LastName>Kabza</LastName>
+                    <ForeName>Adam M</ForeName>
+                    <Initials>AM</Initials>
+                </Author>
+                <Author>
+                    <LastName>Zuiderweg</LastName>
+                    <ForeName>Erik R P</ForeName>
+                    <Initials>ER</Initials>
+                </Author>
+                <Author>
+                    <LastName>Sun</LastName>
+                    <ForeName>Duxin</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author>
+                    <LastName>Gestwicki</LastName>
+                    <ForeName>Jason E</ForeName>
+                    <Initials>JE</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <GrantList>
+                <Grant>
+                    <GrantID>R01 NS059690</GrantID>
+                    <Acronym>NS</Acronym>
+                    <Agency>NINDS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>ACS Med Chem Lett</MedlineTA>
+            <NlmUniqueID>101521073</NlmUniqueID>
+            <ISSNLinking>1948-5875</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Hsp90</Keyword>
+            <Keyword MajorTopicYN="N">breast cancer</Keyword>
+            <Keyword MajorTopicYN="N">mortalin</Keyword>
+            <Keyword MajorTopicYN="N">p53</Keyword>
+            <Keyword MajorTopicYN="N">proteostasis</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1021/ml400204n</ArticleId>
+            <ArticleId IdType="pubmed">24312699</ArticleId>
+            <ArticleId IdType="pmc">PMC3845967</ArticleId>
+            <ArticleId IdType="mid">NIHMS525618</ArticleId>
+        </ArticleIdList>
+        <?nihms?>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24310658</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>6</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1559-0283</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                        <Day>7</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Cell biochemistry and biophysics</Title>
+                <ISOAbbreviation>Cell Biochem. Biophys.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>IGF1(CA)19 and IGFBP-3-202A/C Gene Polymorphism and Cancer Risk: A Meta-analysis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">Insulin-like growth factor 1 (IGF1)(CA)19 and insulin-like growth factor-binding protein-3 (IGFBP-3)-202A/C gene polymorphisms had been focused by many epidemiological studies recently, which were associated with common cancer risk including colorectal, breast, prostate, and lung cancer. However, the findings of epidemiological investigations are not coincident. We did a systematic review and meta-analysis of case-control studies, including studies nested in cohorts, of the association between IGF1(CA)19 and IGFBP-3-202A/C gene polymorphism and prostate, colorectal, premenopausal and postmenopausal breast cancer. We identified 17 eligible studies (24 datasets), which included 9,744 cases and 11,332 controls. The result displays that individuals carrying (CA)19 allele had a subtly decreased risk of all cancer sites [OR(95 % CI) 0.92(0.87,0.97); 0.882(0.809,0.962); 0.902(0.849,0.958)] and postmenopausal breast cancer [OR(95 % CI) 0.893(0.832,0.959); 0.834(0.719,0.968); 0.862(0.776,0.958)] in allele contrast model, CA19/CA19 vs. non-CA19/non-CA19 model, and recessive genetic model. In subgroup analysis according to ethnicities, (CA)19 repeat polymorphism had an increased risk of common cancers in Asian [OR (95 % CI) of allele contrast model: 1.105(1.000,1.224); additive model: 1.103(0.844,1.441), 1.197(1.013,1.413); recessive model: 1.039(0.831,1.300); and dominant model: 1.191(1.030,1.376)]. On the other hand, IGFBP-3-202A/C gene polymorphism did not seem to be associated with all the cancer sites in any genetic model and ethnicity. In conclusion, the result of this meta-analysis indicates that the IGF1(CA)19 polymorphism is a candidate gene polymorphism for cancer susceptibility regardless of environmental factors, especially in Asian.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Histology and Embryology, Third Military Medical University, Chongqing, 400038, People's Republic of China.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Quan</LastName>
+                    <ForeName>Hongyu</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author>
+                    <LastName>Tang</LastName>
+                    <ForeName>Hao</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author>
+                    <LastName>Fang</LastName>
+                    <ForeName>Li</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author>
+                    <LastName>Bi</LastName>
+                    <ForeName>Jianjun</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Liu</LastName>
+                    <ForeName>Yunsheng</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author>
+                    <LastName>Li</LastName>
+                    <ForeName>Hongli</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Cell Biochem Biophys</MedlineTA>
+            <NlmUniqueID>9701934</NlmUniqueID>
+            <ISSNLinking>1085-9195</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1007/s12013-013-9784-4</ArticleId>
+            <ArticleId IdType="pubmed">24310658</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">24309564</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>06</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1940-6215</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <Issue>12</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Cancer prevention research (Philadelphia, Pa.)</Title>
+                <ISOAbbreviation>Cancer Prev Res (Phila)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Cost-effectiveness of a Genetic Test for Breast Cancer Risk.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1328-36</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1158/1940-6207.CAPR-13-0056</ELocationID>
+            <Abstract>
+                <AbstractText>Genetic testing of seven single-nucleotide polymorphisms (7SNP) can improve estimates of risk of breast cancer relative to the Gail risk test alone, for the purpose of recommending MRI screening for women at high risk. A simulation of breast cancer and health care processes was used to conduct a virtual trial comparing the use of the 7SNP test with the Gail risk test to categorize patients by risk. Average-risk patients received annual mammogram, whereas high-risk patients received annual MRI. Cancer incidence was based on Surveillance, Epidemiology, and End Results data and validated to Cancer Prevention Study II Nutrition Cohort data. Risk factor values were drawn from National Health and Nutrition Examination Survey (NHANES-4) and Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial data. Mammogram characteristics were derived from Breast Cancer Surveillance Consortium data. The test was most cost-effective when given to patients at an intermediate lifetime risk of breast cancer. For patients with a risk of 16% to 28%, it resulted in a 1.91% reduction in cancer deaths, saving 0.005 quality-adjusted life years per person at a cost of $163,264 per QALY. These results were sensitive to the age at which the test is given, the discount rate, and the costs of the genetic test and MRI. The cost effectiveness of using the 7SNP test for patients with intermediate Gail risk is similar to that of other recommended strategies, including annual MRI for patients with a lifetime risk greater than 20% or BRCA1/2 mutations. Cancer Prev Res; 6(12); 1328-36. ©2013 AACR.</AbstractText>
+            </Abstract>
+            <Affiliation>Archimedes, Inc., 123 Mission St, 11th Floor, San Francisco, CA 94105. henri.folse@archimedesmodel.com.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Folse</LastName>
+                    <ForeName>Henry J</ForeName>
+                    <Initials>HJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Green</LastName>
+                    <ForeName>Linda E</ForeName>
+                    <Initials>LE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kress</LastName>
+                    <ForeName>Andrea</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Allman</LastName>
+                    <ForeName>Richard</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dinh</LastName>
+                    <ForeName>Tuan A</ForeName>
+                    <Initials>TA</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Cancer Prev Res (Phila)</MedlineTA>
+            <NlmUniqueID>101479409</NlmUniqueID>
+            <ISSNLinking>1940-6215</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">1940-6207.CAPR-13-0056</ArticleId>
+            <ArticleId IdType="doi">10.1158/1940-6207.CAPR-13-0056</ArticleId>
+            <ArticleId IdType="pubmed">24309564</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24309005</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>6</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1460-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                        <Day>5</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the National Cancer Institute</Title>
+                <ISOAbbreviation>J. Natl. Cancer Inst.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Investigation of Mammographic Breast Density as a Risk Factor for Ovarian Cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Endogenous hormones and growth factors that increase mammographic breast density could increase ovarian cancer risk. We examined whether high breast density is associated with ovarian cancer risk.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We conducted a cohort study of 724603 women aged 40 to 79 years with 2506732 mammograms participating in the Breast Cancer Surveillance Consortium from 1995 to 2009. Incident epithelial ovarian cancer was diagnosed in 1373 women. We used partly conditional Cox regression to estimate the association between breast density and 5-year risk of incident epithelial ovarian cancer overall and stratified by 10-year age group. All statistical tests were two-sided.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Compared with women with scattered fibroglandular densities, women with heterogeneously dense and extremely dense breast tissue had 20% and 18% increased 5-year risk of incident epithelial ovarian cancer (hazard ratio [HR] = 1.20, 95% confidence interval [CI] = 1.06 to 1.36; HR = 1.18, 95% CI = 0.93 to 1.50, respectively; P trend = .01). Among women aged 50 to 59 years, we observed a trend in elevated risk associated with increased breast density (P trend = .02); women with heterogeneously and extremely dense breast tissue had 30% (HR = 1.30; 95% CI = 1.03 to 1.64) and 65% (HR = 1.65; 95% CI = 1.12 to 2.44) increased risk, respectively, compared with women with scattered fibroglandular densities. The pattern was similar but not statistically significant at age 40 to 49 years. There were no consistent patterns of breast density and ovarian cancer risk at age 60 to 79 years.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Dense breast tissue was associated with a modest increase in 5-year ovarian cancer risk in women aged 50 to 59 years but was not associated with ovarian cancer at ages 40 to 49 or 60 to 79 years.</AbstractText>
+            </Abstract>
+            <Affiliation>Affiliations of authors: Group Health Research Institute, Group Health Cooperative, Seattle, WA (KJW, ESO, DLM, DSMB); Department of Medicine and Epidemiology and Biostatistics, General Internal Medicine Section, Department of Veterans Affairs, University of California, San Francisco, San Francisco, CA (KK); Division of Biostatistics, Department of Public Health Sciences, University of California Davis School of Medicine, Davis, CA (DLM, CYM); Department of Obstetrics and Gynecology, University of New Mexico, Albuquerque, NM (CYM); Department of Community and Family Medicine, Norris Cotton Cancer Center, Dartmouth Medical School, Hanover, NH (TO); Department of Surgery and Office of Health Promotion Research, University of Vermont, Burlington, VT (BLS); Department of Radiology, University of North Carolina, Chapel Hill, NC (LMH).</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Wernli</LastName>
+                    <ForeName>Karen J</ForeName>
+                    <Initials>KJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>O'Meara</LastName>
+                    <ForeName>Ellen S</ForeName>
+                    <Initials>ES</Initials>
+                </Author>
+                <Author>
+                    <LastName>Kerlikowske</LastName>
+                    <ForeName>Karla</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author>
+                    <LastName>Miglioretti</LastName>
+                    <ForeName>Diana L</ForeName>
+                    <Initials>DL</Initials>
+                </Author>
+                <Author>
+                    <LastName>Muller</LastName>
+                    <ForeName>Carolyn Y</ForeName>
+                    <Initials>CY</Initials>
+                </Author>
+                <Author>
+                    <LastName>Onega</LastName>
+                    <ForeName>Tracy</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author>
+                    <LastName>Sprague</LastName>
+                    <ForeName>Brian L</ForeName>
+                    <Initials>BL</Initials>
+                </Author>
+                <Author>
+                    <LastName>Henderson</LastName>
+                    <ForeName>Louise M</ForeName>
+                    <Initials>LM</Initials>
+                </Author>
+                <Author>
+                    <LastName>Buist</LastName>
+                    <ForeName>Diana S M</ForeName>
+                    <Initials>DS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Natl Cancer Inst</MedlineTA>
+            <NlmUniqueID>7503089</NlmUniqueID>
+            <ISSNLinking>0027-8874</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">djt341</ArticleId>
+            <ArticleId IdType="doi">10.1093/jnci/djt341</ArticleId>
+            <ArticleId IdType="pubmed">24309005</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">24305402</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>05</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1031-3613</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>26</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Reproduction, fertility, and development</Title>
+                <ISOAbbreviation>Reprod. Fertil. Dev.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>219 effects of administration of milk from transgenic cows containing recombinant human lactoferrin in a pig model of malnutrition.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>223-4</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1071/RDv26n1Ab219</ELocationID>
+            <Abstract>
+                <AbstractText>Infant mortality is still a major problem, with the interaction between malnutrition and diarrhoea among the leading causes of death. One option to fight both diarrhoea and malnutrition is breastfeeding. Benefits of breast milk are attributed to the actions of antimicrobial proteins in human milk, such as lactoferrin (LF), which increase intestinal and systemic immune functions. One way to convey the benefits of LF to children is the use of transgenic animals that express human proteins in the mammary gland. In this sense, the availability of animal milk with properties of human milk can be a potential source to increase and prolong the protective benefits of human milk in reducing disease and stimulating growth. Transgenic cows expressing rhLF were produced by pronuclear microinjection with the goal of using the milk to improve human health. To test this hypothesis, we have created a model of malnutrition in pigs by reducing the intake (50%) of calories and protein. The animals (n=26) were randomly divided as follows: after weaning at 3 weeks of age, 18 animals were fed the protein and calorie-restricted diet (mal) for 3 weeks and 8 animals served as a control group and were fed standard feed (full-fed). After 3 weeks, 4 animals in each group were necropsied and the remaining animals (n=18) were placed into the following experimental groups: 4 animals remained in the control group (full-fed-no milk), and the 14 malnourished animals were divided as follows: 4 animals were maintained on food restriction but received no milk (mal-no milk) and 10 animals were maintained on food restriction with 5 receiving 500mL of control milk/day (con milk) and 5 receiving 500mL of rhLF milk/day (rhLF milk) for a total of 15 days. Intestinal permeability and morphology, mRNA expression of tight junction proteins (ZO1, claudin, occludin), and cytokines (TGF-β, TLR-4, IL-10, TNF-α, IL-6 IL-8, CCL-11) in the intestine, and hematological parameters were assessed. Data were analysed by ANOVA with P-values &lt;0.05 considered statistically significant. The restricted diet was capable of inducing a state of malnutrition after 3 weeks as demonstrated by multiple changes in blood chemistry, a significant decrease in gut surface area, and an increase in electrical conductance indicative of compromised intestinal barrier function. Supplementation of the diet with either control milk or rhLF milk promoted the recovery of the intestine as indicated by significantly improved intestinal morphology and permeability. Levels of TNF-α were increased in the mal-no milk group; however, rhLF-fed animals were capable of regulating the expression of TNF-α, which did not significantly differ from full-fed controls. Tight junction proteins were also significantly up-regulated in the rhLF group. Overall, a model of malnutrition was established and the administration of both control and rhLF milk was beneficial in the recovery of the gastrointestinal tract. Our intention is that such milk from transgenic animals can benefit malnourished children around the world.</AbstractText>
+            </Abstract>
+            <Affiliation>University of California, Davis, CA, USA;</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Feltrin</LastName>
+                    <ForeName>C</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Garas</LastName>
+                    <ForeName>L C</ForeName>
+                    <Initials>LC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cooper</LastName>
+                    <ForeName>C A</ForeName>
+                    <Initials>CA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hamilton</LastName>
+                    <ForeName>K</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Filho</LastName>
+                    <ForeName>R V L</ForeName>
+                    <Initials>RV</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bertolini</LastName>
+                    <ForeName>L R</ForeName>
+                    <Initials>LR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bertolini</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Raybould</LastName>
+                    <ForeName>H E</ForeName>
+                    <Initials>HE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Murray</LastName>
+                    <ForeName>J D</ForeName>
+                    <Initials>JD</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Maga</LastName>
+                    <ForeName>E A</ForeName>
+                    <Initials>EA</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Australia</Country>
+            <MedlineTA>Reprod Fertil Dev</MedlineTA>
+            <NlmUniqueID>8907465</NlmUniqueID>
+            <ISSNLinking>1031-3613</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">RDv26n1Ab219</ArticleId>
+            <ArticleId IdType="doi">10.1071/RDv26n1Ab219</ArticleId>
+            <ArticleId IdType="pubmed">24305402</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24304280</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>5</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1875-533X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Nov</Month>
+                        <Day>29</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Current medicinal chemistry</Title>
+                <ISOAbbreviation>Curr. Med. Chem.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Reprogramming Cancer Cells in Endocrine-Related Tumors: Open Issues.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">Reprogramming technologies have been developed to revert somatic differentiated cells into pluripotent stem cells that can be differentiated into different lineages potentially useful in stem cell therapy. Reprogramming methods have been progressively refined to increase their efficiency, to obtain a cell population suitable for differentiation, and to eliminate viral plasmid which could be responsible for many unwanted side-effects when used in personalized medicine. All these methods are aimed to introduce into the cell genes or mRNAs encoding a set of four transcription factors (OCT-4, SOX-2, KLF-4 and c-MYC) or a set of three lincRNAs (large intragenic non-coding RNAs) acting downstream of the reprogramming transcription factors OCT-4, SOX-2 and NANOG Translational clinical applications in human pathologies and in developmental, repair and cancer biology have been numerous. Cancer cells can be, at least in principle, reprogrammed into a normal phenotype. This is a recently raised issue, rapidly advancing in many human tumors, especially endocrine-related cancers, such as breast, prostate and ovarian ca. The present review aims to describe basic phenomena observed in reprogramming tumor cells and solid tumors and to discuss their meaning in human hormone-related cancers. We will also discuss the fact that some of the targeted transcription factors are &quot;normally&quot; activated in a number of physiological processes, such as morphogenesis, hypoxia and wound healing, suggesting an in vivo role of reprogramming for development and homeostasis. Finally, we will review concerns and warnings raised for in vivo reprogramming of human tumors and for the use of induced pluripotent stem cells (iPSCs) in human therapy.</AbstractText>
+            </Abstract>
+            <Affiliation>Laboratory of Cellular and Molecular Pathology, IRCCS San Raffaele Pisana, Via di Val Cannuta, 247 - 00166 - Roma, Italy. matteoantonio.russo@uniroma1.it.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Tafani</LastName>
+                    <ForeName>Marco</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Perrone</LastName>
+                    <ForeName>Giulietta Anna</ForeName>
+                    <Initials>GA</Initials>
+                </Author>
+                <Author>
+                    <LastName>Pucci</LastName>
+                    <ForeName>Bruna</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author>
+                    <LastName>Russo</LastName>
+                    <ForeName>Andrea</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author>
+                    <LastName>Bizzarri</LastName>
+                    <ForeName>Mariano</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Mechanick</LastName>
+                    <ForeName>Ji</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Carpi</LastName>
+                    <ForeName>Angelo</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author>
+                    <LastName>Russo</LastName>
+                    <ForeName>Matteo A</ForeName>
+                    <Initials>MA</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Curr Med Chem</MedlineTA>
+            <NlmUniqueID>9440157</NlmUniqueID>
+            <ISSNLinking>0929-8673</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>3</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2013</Year>
+                <Month>3</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>3</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">CMC-EPUB-57777</ArticleId>
+            <ArticleId IdType="pubmed">24304280</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

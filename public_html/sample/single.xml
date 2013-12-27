@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st May 2013//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_130501.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">16388212</PMID>
+        <DateCreated>
+            <Year>2006</Year>
+            <Month>01</Month>
+            <Day>02</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2006</Year>
+            <Month>01</Month>
+            <Day>19</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1812-2027</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>1</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <MedlineDate>2003 Apr-Jun</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Kathmandu University medical journal (KUMJ)</Title>
+                <ISOAbbreviation>Kathmandu Univ Med J (KUMJ)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Hysterectomy: an analysis of perioperative and post operative complication.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>124-7</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To document peri operative and post operative complication observed after hysterectomy, regardless of route on the operator.</AbstractText>
+                <AbstractText Label="MATERIAL AND METHODS" NlmCategory="METHODS">A hospital based prospective study was carried out in department of obstetrics and gynaecology, KMCTH Sinamangal for six months. The study was carried out in patients undergoing hysterectomy who were followed from the time of admission to the time of discharge and two weeks thereafter. And followings were noted--Indication; route of hysterectomy, intraoperative and postoperative morbidities during hospital stay and after two weeks of discharge was noted.</AbstractText>
+                <AbstractText Label="RESULT" NlmCategory="RESULTS">Total number of hysterectomy carried out was 50. 31 (62%) were Total abdominal hysterectomy, and 19 (38%) were vaginal hysterectomy. Indication for total abdominal hysterectomy were fibroid uterus 12 (24%), DUB 8 (16%), CIN 4 (8%), chronic cervicitis 1 (2%). II U-V prolapse with previous LSCS 1 (2%), endometriosis 1 (2%). Prophylactic for Ca breast 1 (2%), Postmenopausal bleeding 1 (2%). All cases of vaginal hysterectomy were performed for 2nd degree U-V prolapse. Intra operative complication during surgery were two cases of haemorrhage (4%) each in both total abdominal hysterectomy and vaginal hysterectomy. There was one case of bladder injury during abdominal hysterectomy. Postoperative complication noted were febrile morbidity 1 (2%) in abdominal hysterectomy. Urinary tract infection remains the single most common febrile morbidity. There was one case of secondary haemorrhage in both type of hysterectomy. One was managed conservatively and other required laparotomy. There were three (6%) cases of wound infection in abdominal hysterectomy of two which were sanguineous discharge and one was frank pus which required secondary suture.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Obstetrics and Gynaecology, KMCTH, Sinamangal.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Saha</LastName>
+                    <ForeName>R</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sharma</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Padhye</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Karki</LastName>
+                    <ForeName>U</ForeName>
+                    <Initials>U</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pandey</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Thapa</LastName>
+                    <ForeName>J</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Nepal</Country>
+            <MedlineTA>Kathmandu Univ Med J (KUMJ)</MedlineTA>
+            <NlmUniqueID>101215359</NlmUniqueID>
+            <ISSNLinking>1812-2027</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Hysterectomy</DescriptorName>
+                <QualifierName MajorTopicYN="Y">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y">Intraoperative Complications</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y">Postoperative Complications</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2006</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2006</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2006</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">16388212</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
