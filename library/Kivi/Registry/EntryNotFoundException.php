@@ -1,9 +1,9 @@
 <?php
-namespace Kivi;
+namespace Kivi\Registry;
 
-require_once "Kivi/Exception.php";
+require_once dirname(__FILE__) . "/../Exception.php";
 
-class RegistryEntryNotFoundException extends \Kivi\Exception
+class EntryNotFoundException extends \Kivi\Exception
 {
 	protected $_entry;
 	
