@@ -7,6 +7,7 @@ class PaginationTest extends \PHPUnit_Framework_TestCase {
     public function testTotalPagesLessThanDisplayPagesBeginningPageOne()
     {
         //1 2 3 4 5 6 7 8 9 10
+        //bad comment
         $pagination = new Pagination(1,100,10,12);
         $pages = $pagination->getIterator();
         $this->assertEquals(10, $pages->count());
