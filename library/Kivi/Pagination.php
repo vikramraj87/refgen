@@ -1,22 +1,64 @@
 <?php
 namespace Kivi;
 
+/**
+ * Holds the logic regarding pagination
+ *
+ * @category Kivi
+ * @version 1.0.1
+ * @author Vikram
+ */
 class Pagination implements \IteratorAggregate
 {
-	protected $_currPage       = 0;
-	protected $_totalResults   = 0;
-	protected $_resultsPerPage = 0;
-	
-	protected $_start = 0;
-	protected $_end   = 0;
-	protected $_curr  = 1;
-	
-	protected $_totalPages;
+    /**
+     * @var int current page of the results
+     */
+    protected $_currPage       = 0;
+
+    /**
+     * @var int total number of results returned from the server
+     */
+    protected $_totalResults   = 0;
+
+    /**
+     * @var int number of results per page
+     */
+    protected $_resultsPerPage = 0;
+
+    /**
+     * @var int starting page in the pagination
+     */
+    protected $_start = 0;
+
+    /**
+     * @var int end page in the pagination
+     */
+    protected $_end   = 0;
+
+    /**
+     * @var int total pages that will be required to display all results
+     */
+    protected $_totalPages;
+
+    /**
+     * @var int number of pages to be shown in the pagination
+     */
     protected $_displayPages;
-	protected $_pages = array();
-	
-	
-	public function __construct($currPage, $totalResults, $resultsPerPage, $displayPages = 9)
+
+    /**
+     * @var int[] to hold all the pages to be displayed in the bottom
+     */
+    protected $_pages = array();
+
+    /**
+     * Constructor
+     *
+     * @param int $currPage       the current page of the results
+     * @param int $totalResults   total number of results returned from the server
+     * @param int $resultsPerPage number of results per page
+     * @param int $displayPages   number of pages to be shown in the pagination
+     */
+    public function __construct($currPage, $totalResults, $resultsPerPage, $displayPages = 9)
 	{
 		$this->_currPage       = $currPage;
 		$this->_totalResults   = $totalResults;
@@ -53,34 +95,50 @@ class Pagination implements \IteratorAggregate
 	{
 		return $this->_currPage > 2 && $this->_start != 1;
 	}
-	
-	public function getPrev()
+
+
+    /**
+     * @return bool|int previous page number. false if there is no previous page
+     */
+    public function getPrev()
 	{
 		if($this->_currPage > 1) {
 			return $this->_currPage - 1;
 		}
 		return false;
 	}
-	
-	public function getNext()
+
+    /**
+     * @return bool|int next page number. false if there is no next page
+     */
+    public function getNext()
 	{
 		if($this->_currPage < $this->_totalPages) {
 			return $this->_currPage + 1;
 		}
 		return false;
 	}
-	
-	public function getCurrPage()
+
+    /**
+     * @return int the current page of the results
+     */
+    public function getCurrPage()
 	{
 		return $this->_currPage;
 	}
-	
-	public function getIterator()
+
+    /**
+     * @return \ArrayIterator|\Traversable the array iterator for the pages array
+     */
+    public function getIterator()
 	{
 		return new \ArrayIterator($this->_pages);
 	}
-	
-	public function isRequired()
+
+    /**
+     * @return bool tells whether necessary to display pagination
+     */
+    public function isRequired()
 	{
 		return $this->_start < $this->_end;
 	}
