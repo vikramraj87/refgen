@@ -103,7 +103,7 @@ class Xml extends \Kivi\Config {
 
     /**
      * XML object to array
-     * 
+     *
      * @param \SimpleXMLElement $xmlObject
      * @return array
      */
