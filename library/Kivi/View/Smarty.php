@@ -29,42 +29,48 @@ class Smarty extends \Kivi\View
 	public function __construct()
 	{
 		$this->_smarty = new \Smarty();
+    }
 
-        /** @var \Kivi\Registry $registry */
-        $registry = $this->getRegistry();
+    /**
+     * Factory method for generating view object
+     *
+     * @param array|\Kivi\Config $options
+     * @return Smarty
+     * @throws \InvalidArgumentException
+     */
+    public static function factory($options)
+    {
+        if($options instanceof \Kivi\Config) {
+            $options = $options->toArray();
+        }
+        if(!is_array($options)) {
+            throw new \InvalidArgumentException("Options must be either array or \Kivi\Config");
+        }
+        $view = new self;
 
-		if(isset($registry->config->view)) {
-			/** @type \SimpleXMLElement View configuration obtained from the xml config file */
-			$vc = $registry->config->view;
-			
-			/** @type string Real path of application directory */
-			$ad = APPLICATION_DIR . "/";
-			
-			if(isset($vc->dir)) {
-				$this->_baseDir = $ad . (string) $vc->dir; 
-			}
-			if(isset($vc->config_dir)) {
-                $this->_smarty->setConfigDir($ad . (string) $vc->config_dir);
-			}
-			if(isset($vc->compile_dir)) {
-				$this->_smarty->setCompileDir($ad . (string) $vc->compile_dir);
-			}
-			if(isset($vc->cache_dir)) {
-                $this->_smarty->setCacheDir($ad . (string) $vc->cache_dir);
+        if(isset($options["directory"])) {
+            $view->_baseDir = APPLICATION_DIR . "/" . $options["directory"];
+        }
+        if(isset($options["config_directory"])) {
+            $view->_smarty->setConfigDir(APPLICATION_DIR . "/" . $options["config_directory"]);
+        }
+        if(isset($options["compile_directory"])) {
+            $view->_smarty->setCompileDir(APPLICATION_DIR . "/" . $options["compile_directory"]);
+        }
+        if(isset($options["cache_directory"])) {
+            $view->_smarty->setCacheDir(APPLICATION_DIR . "/" . $options["cache_directory"]);
+        }
+        if(isset($options["layout"])) {
+            $layoutOptions = $options["layout"];
+            if(isset($layoutOptions["directory"])) {
+                $view->_smarty->setTemplateDir(APPLICATION_DIR . "/" . $layoutOptions["directory"]);
             }
-            if(isset($vc->layout)) {
-                /** @type \SimpleXMLElement Layout configuration */
-                $lc = $vc->layout;
-                if(isset($lc->dir)) {
-                    $this->_smarty->setTemplateDir($ad . (string) $lc->dir);
-                }
-                if(isset($lc->default)) {
-                    $this->_defaultLayout = (string) $lc->default;
-                }
-
+            if(isset($layoutOptions["default"])) {
+                $view->_defaultLayout = $layoutOptions["default"];
             }
-		}
-	}
+        }
+        return $view;
+    }
 
     /*
      * Renders the smarty template

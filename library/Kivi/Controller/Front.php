@@ -33,27 +33,31 @@ class Front implements FrontControllerInterface
     protected static $_instance = null;
 
     /**
-     * Contructor
+     * Constructor
      */
     private function __construct()
 	{
-        /** @var \SimpleXMLElement $config */
+        /** @var \Kivi\Config $config */
 		$config = $this->getRegistry()->config;
-		
-		if(isset($config->controller->dir)) {
-			$this->_controllerDirectory = APPLICATION_DIR . "/" . (string) $config->controller->dir;
-		}
-		if(isset($config->controller->default)) {
-			$this->_defaultController = (string) $config->controller->default;
-		}
-		if(isset($config->controller->default_action)) {
-			$this->_defaultAction = (string) $config->controller->default_action;
-		}
-		
+
+        if(isset($this->getRegistry()->config->resources->controller)) {
+            $controllerOptions = $this->getRegistry()->config->resources->controller->toArray();
+            if(isset($controllerOptions["directory"])) {
+                $this->_controllerDirectory = APPLICATION_DIR . "/" . $controllerOptions["directory"];
+            }
+            if(isset($controllerOptions["default_controller"])) {
+                $this->_defaultController = $controllerOptions["default_controller"];
+            }
+            if(isset($controllerOptions["default_action"])) {
+                $this->_defaultAction = $controllerOptions["default_action"];
+            }
+
+        }
+
 		if(!isset($this->getRegistry()->controller)) {
 			$this->_parseUri();
 		}
-	}
+    }
 
     /**
      * Factory method to create only one instance of front controller
@@ -112,7 +116,7 @@ class Front implements FrontControllerInterface
 			$f = $this->_controllerDirectory . "/" . $controller . ".php";
 			
 			if(!file_exists($f)) {
-				throw new \Kivi\Controller\ControllerNotFoundException($controller);
+				throw new ControllerNotFoundException($controller);
 			}
 			
 			require_once $f;
@@ -140,7 +144,7 @@ class Front implements FrontControllerInterface
 			if(is_string($this->getRegistry()->controller)) {
 				$this->setController($this->getRegistry()->controller);
 			}
-			$this->getRegistry()->action = new \Kivi\Controller\Action($action, $this->getRegistry()->controller);
+			$this->getRegistry()->action = new Action($action, $this->getRegistry()->controller);
 		}
 		return $this;
 	}
@@ -189,8 +193,19 @@ class Front implements FrontControllerInterface
 		if(is_string($this->getRegistry()->action)) {
 			$this->setAction($this->getRegistry()->action);
 		}
-		
-		$this->getRegistry()->view = new \Kivi\View\Smarty($this->getRegistry());
+
+        //configuring and initializing view
+        $viewOptions = null;
+        if(isset($this->getRegistry()->config->resources->view)) {
+            $viewOptions = $this->getRegistry()->config->resources->view;
+        }
+        if(!is_null($viewOptions)) {
+            $this->getRegistry()->view = \Kivi\View\Smarty::factory($viewOptions);
+        } else {
+            $this->getRegistry()->view = new \Kivi\View\Smarty;
+        }
+
+
 		$this->getRegistry()->action->execute();
 	}
 

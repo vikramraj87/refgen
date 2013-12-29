@@ -84,8 +84,7 @@ $(document).ready(function(){
         }
 
     };
-
-    $("a#export").click(function(event) {
+    var exportClick = function(event) {
         event.preventDefault();
         var modal = md.initModal();
         md.showModal();
@@ -101,11 +100,12 @@ $(document).ready(function(){
         $('<h2>Citations</h2>').prependTo(modal);
         if(modal.height() > 400) {
             modal.css({
-               height: "400px",
-               overflow: "scroll"
+                height: "400px",
+                overflow: "scroll"
             });
         }
-    });
+    };
+    $("a#export").click(exportClick);
 
 
     var ajaxLoader = {
@@ -247,7 +247,9 @@ $(document).ready(function(){
                                 .addClass("clearfix")
                                 .append('<a href="#" id="export">export</a>')
                                 .insertAfter(list)
-                                .hide();
+                                .hide()
+                                .find("a#export")
+                                .click(exportClick);
                         }
                     }
                     var remLink = $('<a>x</a>')

@@ -30,7 +30,7 @@ class SearchController extends ResultController
             /** @var \Model\Article|null $result */
             $result = null;
 
-            $result = $this->getAdapter()->searchById($pmid);
+            $result = $this->getAdapter()->searchById($pmid)->getResult();
 
             if(!is_null($result)) {
                 $_SESSION["list"][$result->pmid] = $result;
@@ -81,8 +81,11 @@ class SearchController extends ResultController
         $this->view->list   = isset($_SESSION["list"]) ? $_SESSION["list"] : null;
         $this->view->query   = $pmid;
 
+        /** @var \Model\PubMedAdapter $adapter */
+        $adapter = $this->getAdapter();
+
         try {
-            $result = $this->getAdapter()->searchById($pmid);
+            $result = $adapter->searchById($pmid)->getResult();
         } catch (\Model\PubMedNotAvailableException $e) {
             $this->view->heading = "Server error";
             $this->view->message = "There is error establishing communication with Pubmed server.";
@@ -96,7 +99,8 @@ class SearchController extends ResultController
             $template  = "single-result";
         }
 
-        $this->view->result = $result;
+        $this->view->result  = $result;
+        $this->view->adapter = $adapter;
         return $this->view->render($template);
     }
 
@@ -135,7 +139,7 @@ class SearchController extends ResultController
 			if(preg_match("/^\d+$/", $term)) {
                 $this->_redirect("display", "search", array("pmid" => $term));
 			} else {
-				$result = $adapter->searchByTerm($term, $page);
+				$result = $adapter->searchByTerm($term, $page)->getResult();
 			}
 		} catch (\Model\PubMedNotAvailableException $e) {
 			$this->view->heading = "Server error";
@@ -146,14 +150,22 @@ class SearchController extends ResultController
 
         $template = "no-result";
 
+        //TODO: Prevent second server redirect
         if($result instanceof \Model\Article) {
             $this->_redirect("display", "search", array("pmid" => $result->pmid));
 		} else if($result instanceof \Model\Articles) {
 			$template = "multiple-results";
-			$this->view->pagination = new \Kivi\Pagination($result->getCurrPage(), count($result), $result->getItemsPerPage());
+			$this->view->pagination = new \Kivi\Pagination(
+                $adapter->getPage(),
+                $adapter->getCount(),
+                $adapter->getMaxResults(),
+                $adapter->getDisplayPages()
+            );
 		}
 
-        $this->view->result = $result;
+        $this->view->result  = $result;
+        $this->view->adapter = $adapter;
+
 		return $this->view->render($template);
     }
 }

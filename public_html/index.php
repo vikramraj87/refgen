@@ -33,9 +33,9 @@ spl_autoload_register(function($class){
 });
 $registry = \Kivi\Registry::getInstance();
 
-$config = new \Kivi\Config\XmlParser(APPLICATION_DIR . "/configs/site.xml");
-$registry->config = $config->parse();
 
+$registry->config = new \Kivi\Config\Xml(APPLICATION_DIR . "/configs/site.xml", "development");
+/*
 try {
     $dbh = null;
     $dbh = new PDO("mysql:host=localhost;dbname=log", "root", "K1rth1k@s1n1");
@@ -48,14 +48,17 @@ try {
 } catch (PDOException $e) {
 
 }
+*/
 
 try {
     $front = \Kivi\Controller\Front::getInstance();
     $front->run();
 } catch (\Kivi\Controller\ControllerNotFoundException $ce) {
-    header("Location: /404.html");
+    echo $ce->getMessage();
+    //header("Location: /404.html");
 } catch (\Kivi\Controller\ActionNotFoundException $ae) {
-    header("Location: /404.html");
+    echo $ae->getMessage();
+    //header("Location: /404.html");
 } catch(\Exception $e) {
     $reflection  = new \ReflectionClass($e);
     $eClass      = get_class($e);
@@ -72,9 +75,10 @@ try {
             }
         }
     }
-    $registry->log->fatal($message, $extra);
+    //$registry->log->fatal($message, $extra);
+    echo $e->getMessage();
     if(APPLICATION_ENV == "PRODUCTION") {
-        header("Location: /500.html");
+        //header("Location: /500.html");
     }
 }
 

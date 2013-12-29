@@ -60,11 +60,14 @@ abstract class Adapter {
     const CACHE_NAMESPACE = "article_cache";
 
     /**
-     * Constructor
+     * @var Articles|Article|null results obtained from the adapter
      */
-    public function __construct()
-    {
-    }
+    protected $_result;
+
+    /**
+     * @var int number of pages to be displayed in the pagination
+     */
+    private $_displayPages;
 
     /**
      * Parses the multi dimensional data array into corresponding objects - Articles or Article.
@@ -82,9 +85,6 @@ abstract class Adapter {
 			} else if(count($data) > 1) {
 				$result = new Articles(
 					$data,
-					$this->_count,
-					$this->_page,
-					$this->_maxResults,
 					$this->_maxAuthors,
 					$this->_includeMonth,
 					$this->_includeIssue
@@ -96,7 +96,7 @@ abstract class Adapter {
             $this->_cacheResult($result);
         }
 
-        return $result;
+        $this->_result = $result;
     }
 
     /**
@@ -129,6 +129,16 @@ abstract class Adapter {
             $this->_maxResults = $max;
         }
         return $this;
+    }
+
+    /**
+     * Getter for _maxResults
+     *
+     * @return int
+     */
+    public function getMaxResults()
+    {
+        return $this->_maxResults;
     }
 
     /**
@@ -189,6 +199,16 @@ abstract class Adapter {
     }
 
     /**
+     * @return int
+     */
+    public function getPage()
+    {
+        return $this->_page;
+    }
+
+
+
+    /**
      * Sets the total number of results
      *
      * @param int $count
@@ -204,6 +224,16 @@ abstract class Adapter {
     }
 
     /**
+     * Getter for count
+     *
+     * @return int
+     */
+    public function getCount()
+    {
+        return $this->_count;
+    }
+
+    /**
      * Getter for start
      *
      * @return int
@@ -214,17 +244,33 @@ abstract class Adapter {
     }
 
     /**
-     * Getter for _maxResults
-     *
-     * @return int
+     * Getter for result
+     * @return Article|Articles|null
      */
-    public function getMaxResults()
+    public function getResult()
     {
-        return $this->_maxResults;
+        return $this->_result;
     }
 
     /**
-     * Enables storing the results
+     * @param int $displayPages
+     */
+    public function setDisplayPages($displayPages)
+    {
+        $displayPages = (int) $displayPages;
+        $this->_displayPages = $displayPages;
+    }
+
+    /**
+     * @return int
+     */
+    public function getDisplayPages()
+    {
+        return $this->_displayPages;
+    }
+
+    /**
+     * disables storing the results in the session
      *
      * return $this
      */
@@ -274,6 +320,6 @@ abstract class Adapter {
         if(isset($_SESSION[self::CACHE_NAMESPACE][$id])) {
             return $_SESSION[self::CACHE_NAMESPACE][$id];
         }
-        return false;
+        return null;
     }
 } 

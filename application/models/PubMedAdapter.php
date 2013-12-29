@@ -35,10 +35,66 @@ class PubMedAdapter extends Adapter
     private $_retMode = "xml";
 
     /**
+     * Factory function to generate adapter
+     *
+     * @param array $options
+     * @return PubMedAdapter
+     * @throws \InvalidArgumentException
+     */
+    public static function factory($options)
+    {
+        if(!is_array($options)) {
+            throw new \InvalidArgumentException("options for the factory function should be in array format");
+        }
+        $adapter = new self;
+        if(isset($options["per_page"])) {
+            $adapter->setMaxResults($options["per_page"]);
+        }
+        if(isset($options["display_pages"])) {
+            $adapter->setDisplayPages($options["display_pages"]);
+        }
+        if(isset($options["article"])) {
+            $articleOptions = $options["article"];
+            if(isset($articleOptions["max_authors"])) {
+                $adapter->setMaxAuthors($articleOptions["max_authors"]);
+            }
+            $stringToBoolean = array(
+                "yes"   => true,
+                "true"  => true,
+                "no"    => false,
+                "false" => false
+            );
+            if(isset($articleOptions["include_issue"])) {
+                $includeIssue = $articleOptions["include_issue"];
+                if(is_string($includeIssue)) {
+                    $includeIssue = strtolower($includeIssue);
+                    if(array_key_exists($includeIssue, $stringToBoolean)) {
+                        $includeIssue = $stringToBoolean[$includeIssue];
+                    }
+                }
+                $includeIssue = (bool) $includeIssue;
+                $adapter->includeIssue($includeIssue);
+            }
+            if(isset($articleOptions["include_month"])) {
+                $includeMonth = $articleOptions["include_month"];
+                if(is_string($includeMonth)) {
+                    $includeMonth = strtolower($includeMonth);
+                    if(array_key_exists($includeMonth, $stringToBoolean)) {
+                        $includeMonth = $stringToBoolean[$includeMonth];
+                    }
+                }
+                $includeMonth = (bool) $includeMonth;
+                $adapter->includeMonth($includeMonth);
+            }
+            return $adapter;
+        }
+    }
+
+    /**
      * Search by PMID
      *
      * @param id $id
-     * @return Article|Articles|null
+     * @return $this
      */
     public function searchById($id)
 	{
@@ -48,11 +104,13 @@ class PubMedAdapter extends Adapter
             $result = $this->_searchCache($id);
         }
 
-		if(empty($result)) {
+		if(is_null($result)) {
 			$result = $this->_queryByPmid($id);
-            return $this->_parseData($result);
+            $this->_parseData($result);
+        } else {
+            $this->_result = $result;
         }
-        return $result;
+        return $this;
     }
 
     /**
@@ -60,7 +118,7 @@ class PubMedAdapter extends Adapter
      *
      * @param string $term
      * @param int $page
-     * @return Article|Articles|null
+     * @return $this
      * @throws PubMedNotAvailableException
      */
     public function searchByTerm($term, $page = 1)
@@ -99,7 +157,8 @@ class PubMedAdapter extends Adapter
 			}
 			$results = $this->_queryByPmid(implode(",",$ids));
 		}
-        return $this->_parseData($results);
+        $this->_parseData($results);
+        return $this;
 	}
 
     /**

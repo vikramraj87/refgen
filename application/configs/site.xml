@@ -28,7 +28,7 @@
         </resources>
         <result>
             <per_page>10</per_page>
-            <display_pages>10</display_pages>
+            <display_pages>9</display_pages>
             <article>
                 <max_authors>6</max_authors>
                 <include_issue>yes</include_issue>

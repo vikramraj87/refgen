@@ -21,7 +21,7 @@ class AjaxController extends ResultController
 
         if(!isset($_SESSION["list"][$pmid]) && $pmid) {
             /** @var \Model\Article|null $result */
-            $result = $this->getAdapter()->searchById($pmid);
+            $result = $this->getAdapter()->searchById($pmid)->getResult();
             if($result) {
                 $_SESSION["list"][$result->pmid] = $result;
                 $output["pmid"] = $result->pmid;

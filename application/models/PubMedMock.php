@@ -4,6 +4,11 @@ namespace Model;
 
 class PubMedMock extends PubMedAdapter
 {
+    /**
+     * @param id $id
+     * @return $this
+     * @throws PubMedNotAvailableException
+     */
     public function searchById($id)
     {
         /** @var string $local_file holds the file name of the local test xml*/
@@ -34,9 +39,16 @@ class PubMedMock extends PubMedAdapter
 
         $result[0] = isset($data[$id]) ? $data[$id] : null;
 
-        return $this->_parseData($result);
+        $this->_parseData($result);
+        return $this;
     }
 
+    /**
+     * @param string $term
+     * @param int $page
+     * @return $this
+     * @throws PubMedNotAvailableException
+     */
     public function searchByTerm($term, $page = 1)
     {
         /** @var string $local_file holds the file name of the local test xml*/
@@ -58,6 +70,7 @@ class PubMedMock extends PubMedAdapter
         //set the total number of results
         $this->setCount($xml->Count);
 
-        return $this->_parseData($results);
+        $this->_parseData($results);
+        return $this;
     }
 } 
