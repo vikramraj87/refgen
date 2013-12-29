@@ -246,10 +246,11 @@ $(document).ready(function(){
                             options = $('<div id="options"></div>')
                                 .addClass("clearfix")
                                 .append('<a href="#" id="export">export</a>')
-                                .insertAfter(list)
+                                .insertBefore("#ajax-status")
                                 .hide()
                                 .find("a#export")
-                                .click(exportClick);
+                                .click(exportClick)
+                                .end();
                         }
                     }
                     var remLink = $('<a>x</a>')
