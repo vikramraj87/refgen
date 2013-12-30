@@ -25,7 +25,7 @@ spl_autoload_register(function($class){
 	//Models
 	if($parts[0] == "Model") {
 		$parts[0] = APPLICATION_DIR . "/models";
-		$parts[1] .= ".php";
+        $parts[count($parts) - 1] .= ".php";
 		$file = implode("/", $parts);
 		require_once $file;
 	}
@@ -50,9 +50,10 @@ try {
 }
 */
 
-try {
+/*try {*/
     $front = \Kivi\Controller\Front::getInstance();
     $front->run();
+/*
 } catch (\Kivi\Controller\ControllerNotFoundException $ce) {
     echo $ce->getMessage();
     //header("Location: /404.html");
@@ -82,3 +83,4 @@ try {
     }
 }
 
+*/

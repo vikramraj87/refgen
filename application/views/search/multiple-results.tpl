@@ -1,5 +1,5 @@
 							{foreach $result as $article}
-                {include file="article.tpl" short=true article=$article}
+                {include file="article.tpl" short=true article=$article citation=$citation}
                             {/foreach}
                 {if $pagination->isRequired()}
                 <ol id="pagination">

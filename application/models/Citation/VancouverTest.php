@@ -60,6 +60,36 @@ class VancouverTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals($expectedString, $citation->getCitation($article));
     }
 
+    public function testVancouverStyleForPublishedNoAuthors()
+    {
+        $data = $this->_data;
+        $data["authors"] = array();
+        $article = new \Model\Article($data);
+        $citation = new Vancouver();
+
+        $expectedString = "";
+        $expectedString .= "Hysterectomy: an analysis of perioperative and post operative complication. ";
+        $expectedString .= "Kathmandu Univ Med J. ";
+        $expectedString .= "2003 Apr;1(2):124-7";
+        $this->assertEquals($expectedString, $citation->getCitation($article));
+    }
+
+    public function testVancouverStyleForPublishedMoreThanSixAuthors()
+    {
+        $data = $this->_data;
+        array_unshift($data["authors"], "Gopinathan N");
+        array_unshift($data["authors"], "Gopinathan V");
+
+        $article = new \Model\Article($data);
+        $citation = new Vancouver();
+
+        $expectedString = "Gopinathan V, Gopinathan N, Saha R, Sharma M, Padhye S, Karki U, et al. ";
+        $expectedString .= "Hysterectomy: an analysis of perioperative and post operative complication. ";
+        $expectedString .= "Kathmandu Univ Med J. ";
+        $expectedString .= "2003 Apr;1(2):124-7";
+        $this->assertEquals($expectedString, $citation->getCitation($article));
+    }
+
     public function testVancouverStyleForPublishedNoIssue()
     {
         $data = $this->_data;
@@ -71,6 +101,35 @@ class VancouverTest extends \PHPUnit_Framework_TestCase {
         $expectedString .= "Hysterectomy: an analysis of perioperative and post operative complication. ";
         $expectedString .= "Kathmandu Univ Med J. ";
         $expectedString .= "2003 Apr;1:124-7";
+        $this->assertEquals($expectedString, $citation->getCitation($article));
+    }
+
+    public function testVancouverStyleForPublishedNoVolume()
+    {
+        $data = $this->_data;
+        $data["volume"] = "";
+        $article = new \Model\Article($data);
+        $citation = new Vancouver();
+
+        $expectedString = "Saha R, Sharma M, Padhye S, Karki U, Pandey S, Thapa J. ";
+        $expectedString .= "Hysterectomy: an analysis of perioperative and post operative complication. ";
+        $expectedString .= "Kathmandu Univ Med J. ";
+        $expectedString .= "2003 Apr;(2):124-7";
+        $this->assertEquals($expectedString, $citation->getCitation($article));
+    }
+
+    public function testVancouverStyleForPublishedNoVolumeAndIssue()
+    {
+        $data = $this->_data;
+        $data["volume"] = "";
+        $data["issue"]  = "";
+        $article = new \Model\Article($data);
+        $citation = new Vancouver();
+
+        $expectedString = "Saha R, Sharma M, Padhye S, Karki U, Pandey S, Thapa J. ";
+        $expectedString .= "Hysterectomy: an analysis of perioperative and post operative complication. ";
+        $expectedString .= "Kathmandu Univ Med J. ";
+        $expectedString .= "2003 Apr:124-7";
         $this->assertEquals($expectedString, $citation->getCitation($article));
     }
 

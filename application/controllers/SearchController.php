@@ -80,6 +80,7 @@ class SearchController extends ResultController
         //View variables require for side
         $this->view->list   = isset($_SESSION["list"]) ? $_SESSION["list"] : null;
         $this->view->query   = $pmid;
+        $this->view->citation = new \Model\Citation\Vancouver();
 
         /** @var \Model\PubMedAdapter $adapter */
         $adapter = $this->getAdapter();
@@ -101,6 +102,8 @@ class SearchController extends ResultController
 
         $this->view->result  = $result;
         $this->view->adapter = $adapter;
+
+
         return $this->view->render($template);
     }
 
@@ -134,6 +137,7 @@ class SearchController extends ResultController
         $this->view->list   = isset($_SESSION["list"]) ? $_SESSION["list"] : null;
         $this->view->query  = urlencode($term);
         $this->view->page   = $page;
+        $this->view->citation = new \Model\Citation\Vancouver();
 
         try {
 			if(preg_match("/^\d+$/", $term)) {
@@ -165,6 +169,7 @@ class SearchController extends ResultController
 
         $this->view->result  = $result;
         $this->view->adapter = $adapter;
+
 
 		return $this->view->render($template);
     }

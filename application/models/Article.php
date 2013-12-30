@@ -8,11 +8,7 @@ class Article
     const PUBLISHED      = 1;
     const AHEAD_OF_PRINT = 2;
 
-	protected $_maxAuthors   = 6;
-	protected $_includeMonth = true;
-	protected $_includeIssue = true;
-
-    protected $_publicationStatus;
+	protected $_publicationStatus;
 	
 	protected $_data = array(
 		"pmid"          => "",
@@ -33,13 +29,8 @@ class Article
 		"keywords"      => array()
 	);
 	
-	public function __construct(
-		array $data   = null, 
-		$maxAuthors   = 6, 
-		$includeMonth = true, 
-		$includeIssue = true
-	)
-	{
+	public function __construct(array $data   = array())
+    {
         if(isset($data["pubstatus"])) {
             switch($data["pubstatus"]) {
                 case "ppublish":
@@ -52,7 +43,7 @@ class Article
             }
             unset($data["pubstatus"]);
         }
-		if($data != null) {
+		if(!empty($data)) {
 			foreach($data as $field => $value) {
 				if(!array_key_exists($field, $this->_data)) {
 					continue;
@@ -60,11 +51,7 @@ class Article
 				$this->_data[$field] = $value;
 			}
 		}
-
-		$this->_maxAuthors   = (int)     $maxAuthors;
-		$this->_includeMonth = (boolean) $includeMonth;
-		$this->_includeIssue = (boolean) $includeIssue;
-	}
+    }
 	
 	public function __get($field)
 	{
@@ -83,90 +70,21 @@ class Article
 		return isset($this->_data[$field]);
 	}
 	
-	/**
-	 * Turns Array into CSV. Also adds et al at the end if needed
-	 */
-	public function getAuthorsAsCSV($truncate = true)
-	{
-		if(empty($this->authors)) {
-			return "";
-		}
-		
-		$authors = $this->authors;
-		
-		if($this->_maxAuthors != 0 && count($authors) > $this->_maxAuthors && $truncate) {
-			$authors = array_slice($this->authors, 0, $this->_maxAuthors);
-			$authors[] = "et al";
-		}
-		
-		return implode(", ", $authors);
-	}
-	
-	
-	
-	/**
-	 * Removes full stop between journal abbr
-	 * J. Virol. => J Virol
-	 */
-	public function getJournalAbbr()
-	{
-		return $this->journalabbrev;
-	}
-	
-	/**
-	 * Constructs the citation and returns it
-	 */
-	public function getVancouverCitation()
-	{
-		$retVal = "";
-		if(!empty($this->authors)) {
-			$retVal .= $this->authorsAsCSV . ". ";
-		}
-		$retVal .= sprintf(
-			"%s %s. %s",
-			$this->title,
-			$this->journalAbbr,
-			$this->year
-		);
-		if(!empty($this->month) && $this->_includeMonth) {
-			$retVal .= " " . $this->month;
-		}
-		if(!empty($this->volume)) {
-			$retVal .= ";" . $this->volume;
-			if(!empty($this->issue) && $this->_includeIssue) {
-				$retVal .= sprintf("(%s)", trim($this->issue));
-			}
-		}
-		if(!empty($this->pages)) {
-			$retVal .= ":" . $this->pages;
-		}
-		return $retVal;
-	}
+    public function getJournalAbbr()
+    {
+        return $this->_data["journalabbrev"];
+    }
 
-    /**
-	 * Get truncated abstract of specified length
-	 */
-	public function getTruncatedAbstract($limit = 300, $break = " ", $trailing = "...")
-	{
-		$truncated = implode(" ", $this->abstract);
-		
-		if(strlen($truncated) > $limit) {
-			$truncated  = substr($truncated, 0, $limit - 1);
-			$breakPoint = strrpos($truncated, $break);
-			$truncated  = substr($truncated, 0, $breakPoint) . $trailing;
-		}
-		return $truncated;
-	}
-	
-	public function getFooter()
-	{
-		$footer  = "";
-		$footer  = "Published in " . $this->journal;
-		$footer .= isset($this->volume) ? " Vol: " . $this->volume : "";
-		$footer .= isset($this->pages)  ? " Pages: " . $this->pages : "";
-		$footer .= isset($this->year) ? " on " . $this->year : "";
-		return $footer;
-	}
+    public function getTruncatedAbstract($limit = 300, $break = " ", $trailing = "...")
+    {
+        $truncated = implode(" ", $this->_data["abstract"]);
+        if(strlen($truncated) > $limit) {
+            $truncated = substr($truncated, 0, $limit - 1);
+            $bp  = strrpos($truncated, $break);
+            $truncated = substr($truncated, 0, $bp) . $trailing;
+        }
+        return $truncated;
+    }
 
     public function getPublicationStatus()
     {
