@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2014//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_140101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24317178</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>9</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1460-2105</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Dec</Month>
+                        <Day>7</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the National Cancer Institute</Title>
+                <ISOAbbreviation>J. Natl. Cancer Inst.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Germline Mutations in Driver Oncogenes and Inherited Lung Cancer Risk Independent of Smoking History.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <AuthorList>
+                <Author>
+                    <LastName>Oxnard</LastName>
+                    <ForeName>Geoffrey R</ForeName>
+                    <Initials>GR</Initials>
+                    <Affiliation>Affiliations of authors: Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA (GRO); Department of Medicine, Division of Medical Oncology, Stanford University Medical Center, Palo Alto, CA (KSHN); Department of Medicine, Division of Hematology/Oncology, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA (DBC).</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Nguyen</LastName>
+                    <ForeName>Kim-Son H</ForeName>
+                    <Initials>KS</Initials>
+                </Author>
+                <Author>
+                    <LastName>Costa</LastName>
+                    <ForeName>Daniel B</ForeName>
+                    <Initials>DB</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Natl Cancer Inst</MedlineTA>
+            <NlmUniqueID>7503089</NlmUniqueID>
+            <ISSNLinking>0027-8874</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">djt361</ArticleId>
+            <ArticleId IdType="doi">10.1093/jnci/djt361</ArticleId>
+            <ArticleId IdType="pubmed">24317178</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

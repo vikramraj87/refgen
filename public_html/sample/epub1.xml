@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2014//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_140101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">24365050</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>24</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1938-0690</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2013</Year>
+                        <Month>Nov</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Clinical lung cancer</Title>
+                <ISOAbbreviation>Clin Lung Cancer</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Third-Line Chemotherapy in Small-Cell Lung Cancer: An International Analysis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="pii">S1525-7304(13)00229-5</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.cllc.2013.11.003</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION" NlmCategory="BACKGROUND">Small-cell lung cancer is an aggressive disease for which the mainstay of treatment is chemotherapy. Despite good initial responses most patients will relapse. Some will receive second-line therapy with clinical benefit, but for third-line chemotherapy there is little evidence to guide treatment decisions and the benefits of treatment are unknown. This study investigated the treatment of SCLC in the third-line setting.</AbstractText>
+                <AbstractText Label="PATIENTS AND METHODS" NlmCategory="METHODS">An international, multicenter retrospective analysis of patients who received at least 3 lines of chemotherapy for their SCLC was performed.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">From 2000 to 2010, 120 patients were identified from 5 centers: median age 61, 40% (n = 72) limited stage, and 79% (n = 95) Eastern Cooperative Oncology Group performance status of 0 to 1. Only 22% of these patients received 3 distinct lines of chemotherapy. The remainder were rechallenged with a chemotherapy regimen used at least once previously. Six percent received platinum-based chemotherapy in all 3 lines. In third-line, response rate was 18% and median overall survival was 4.7 months. Factors associated with longer survival included normal baseline LDH levels and response to second-line chemotherapy. On multivariate analysis only normal baseline LDH retained statistical significance. Thirty-five patients went on to receive chemotherapy beyond the third line.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Few SCLC patients receive 3 chemotherapy lines. Most patients were rechallenged with a similar regimen at least once. Response and survival in the third-line setting are modest. Lack of response to second-line chemotherapy and elevated baseline LDH level might predict lack of benefit from third-line treatment. This data set does not include patients receiving fewer lines for comparison.</AbstractText>
+                <CopyrightInformation>Copyright © 2013 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Simos</LastName>
+                    <ForeName>Demetrios</ForeName>
+                    <Initials>D</Initials>
+                    <Affiliation>Division of Medical Oncology, The Ottawa Hospital Cancer Centre, University of Ottawa and The Ottawa Hospital Research Institute, Ottawa, Ontario, Canada.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Sajjady</LastName>
+                    <ForeName>Golmehr</ForeName>
+                    <Initials>G</Initials>
+                    <Affiliation>Division of General Internal Medicine, University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Sergi</LastName>
+                    <ForeName>Melissa</ForeName>
+                    <Initials>M</Initials>
+                    <Affiliation>Department of Internal Medicine, University of Toronto, Toronto, Ontario, Canada.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Liew</LastName>
+                    <ForeName>Mun Sem</ForeName>
+                    <Initials>MS</Initials>
+                    <Affiliation>Joint Austin-Ludwig Oncology Unit, Olivia Newton-John Cancer and Wellness Centre, Austin Health, Melbourne, Australia.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Califano</LastName>
+                    <ForeName>Raffaele</ForeName>
+                    <Initials>R</Initials>
+                    <Affiliation>Department of Medical Oncology, The Christie NHS Foundation Trust, Manchester, United Kingdom.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Ho</LastName>
+                    <ForeName>Cheryl</ForeName>
+                    <Initials>C</Initials>
+                    <Affiliation>Division of Medical Oncology, The British Columbia Cancer Agency and University of British Columbia, Vancouver, British Columbia, Canada.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Leighl</LastName>
+                    <ForeName>Natasha</ForeName>
+                    <Initials>N</Initials>
+                    <Affiliation>Division of Medical Oncology, Princess Margaret Hospital Cancer Centre/University Health Network and University of Toronto, Toronto, Ontario, Canada.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>White</LastName>
+                    <ForeName>Shane</ForeName>
+                    <Initials>S</Initials>
+                    <Affiliation>Joint Austin-Ludwig Oncology Unit, Olivia Newton-John Cancer and Wellness Centre, Austin Health, Melbourne, Australia.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Summers</LastName>
+                    <ForeName>Yvonne</ForeName>
+                    <Initials>Y</Initials>
+                    <Affiliation>Department of Medical Oncology, The Christie NHS Foundation Trust, Manchester, United Kingdom.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Petrcich</LastName>
+                    <ForeName>William</ForeName>
+                    <Initials>W</Initials>
+                    <Affiliation>The Ottawa Hospital Research Institute, Clinical Epidemiology Program, Methods Centre, Ottawa, Ontario, Canada.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Wheatley-Price</LastName>
+                    <ForeName>Paul</ForeName>
+                    <Initials>P</Initials>
+                    <Affiliation>Division of Medical Oncology, The Ottawa Hospital Cancer Centre, University of Ottawa and The Ottawa Hospital Research Institute, Ottawa, Ontario, Canada. Electronic address: pwheatleyprice@toh.on.ca.</Affiliation>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Clin Lung Cancer</MedlineTA>
+            <NlmUniqueID>100893225</NlmUniqueID>
+            <ISSNLinking>1525-7304</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Outcomes</Keyword>
+            <Keyword MajorTopicYN="N">Retrospective review</Keyword>
+            <Keyword MajorTopicYN="N">Small cell lung cancer</Keyword>
+            <Keyword MajorTopicYN="N">Third-line</Keyword>
+            <Keyword MajorTopicYN="N">Treatment</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2013</Year>
+                <Month>10</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>8</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S1525-7304(13)00229-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.cllc.2013.11.003</ArticleId>
+            <ArticleId IdType="pubmed">24365050</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
