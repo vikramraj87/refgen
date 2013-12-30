@@ -5,9 +5,14 @@ namespace Model;
  */
 class Article
 {
+    const PUBLISHED      = 1;
+    const AHEAD_OF_PRINT = 2;
+
 	protected $_maxAuthors   = 6;
 	protected $_includeMonth = true;
 	protected $_includeIssue = true;
+
+    protected $_publicationStatus;
 	
 	protected $_data = array(
 		"pmid"          => "",
@@ -15,6 +20,7 @@ class Article
 		"issue"         => "",
 		"year"          => "",
 		"month"         => "",
+        "day"           => "",
 		"pages"         => "",
 		"issn"          => "",
 		"journal"       => "",
@@ -34,6 +40,18 @@ class Article
 		$includeIssue = true
 	)
 	{
+        if(isset($data["pubstatus"])) {
+            switch($data["pubstatus"]) {
+                case "ppublish":
+                case "epublish":
+                    $this->_publicationStatus = self::PUBLISHED;
+                    break;
+                case "aheadofprint":
+                    $this->_publicationStatus = self::AHEAD_OF_PRINT;
+                    break;
+            }
+            unset($data["pubstatus"]);
+        }
 		if($data != null) {
 			foreach($data as $field => $value) {
 				if(!array_key_exists($field, $this->_data)) {
@@ -42,6 +60,7 @@ class Article
 				$this->_data[$field] = $value;
 			}
 		}
+
 		$this->_maxAuthors   = (int)     $maxAuthors;
 		$this->_includeMonth = (boolean) $includeMonth;
 		$this->_includeIssue = (boolean) $includeIssue;
@@ -54,7 +73,7 @@ class Article
 			return $this->$lazyLoader();
 		}
 		if(!array_key_exists($field, $this->_data)) {
-			throw new Exception("Property $field is not a valid property of class Article");
+			throw new \InvalidArgumentException("Property $field is not a valid property of class Article");
 		}
 		return $this->_data[$field];
 	}
@@ -91,7 +110,7 @@ class Article
 	 */
 	public function getJournalAbbr()
 	{
-		return preg_replace("/\./", "", $this->journalabbrev);
+		return $this->journalabbrev;
 	}
 	
 	/**
@@ -123,8 +142,8 @@ class Article
 		}
 		return $retVal;
 	}
-	
-	/**
+
+    /**
 	 * Get truncated abstract of specified length
 	 */
 	public function getTruncatedAbstract($limit = 300, $break = " ", $trailing = "...")
@@ -148,4 +167,9 @@ class Article
 		$footer .= isset($this->year) ? " on " . $this->year : "";
 		return $footer;
 	}
+
+    public function getPublicationStatus()
+    {
+        return $this->_publicationStatus;
+    }
 }

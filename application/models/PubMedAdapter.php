@@ -273,6 +273,7 @@ class PubMedAdapter extends Adapter
 
             $year  = (string) $article->MedlineCitation->Article->Journal->JournalIssue->PubDate->Year;
             $month = (string) $article->MedlineCitation->Article->Journal->JournalIssue->PubDate->Month;
+            $day   = (string) $article->MedlineCitation->Article->Journal->JournalIssue->Pubdate->Day;
 
             if(empty($year)) {
                 if(isset($article->MedlineCitation->Article->Journal->JournalIssue->PubDate->MedlineDate)) {
@@ -293,6 +294,7 @@ class PubMedAdapter extends Adapter
                 "issue"         => (string) $article->MedlineCitation->Article->Journal->JournalIssue->Issue,
                 "year"          =>          $year,
                 "month"         =>          $month,
+                "day"           =>          $day,
                 "pages"         => (string) $article->MedlineCitation->Article->Pagination->MedlinePgn,
                 "issn"          => (string) $article->MedlineCitation->Article->Journal->ISSN,
                 "journal"       => (string) $article->MedlineCitation->Article->Journal->Title,
@@ -302,7 +304,8 @@ class PubMedAdapter extends Adapter
                 "affiliation"   => (string) $article->MedlineCitation->Article->Affiliation,
                 "authors"       =>          $authors,
                 "articleid"     =>          $articleId,
-                "keywords"      =>          $keywords
+                "keywords"      =>          $keywords,
+                "pubstatus"     => (string) $article->PubmedData->PublicationStatus
             );
         }
         return $data;
