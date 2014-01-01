@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    /* Remove hidden attribute and replace with "display:none" so that we can animate */
+    /* Remove hidden attribute and replace with "display:none" so that animation can be achieved */
     $("div.full").removeAttr("hidden").hide();
 
-    /* Prevent form submit and redirect with the required parameters so that we can prevent ugly URLs */
+    /* Prevent form submit and redirect with the required parameters so that ugly URLs can be prevented */
     $("#form-search").submit(function(event){
         event.preventDefault();
 
@@ -33,14 +33,12 @@ $(document).ready(function(){
         });
     });
 
-
     /* Correct the col height */
     if($("div#column-wrapper").length > 0) {
         var maxHeight = 0;
         $("div#column-wrapper .col").each(function(){
-            console.log($(this).height());
             if($(this).height() > maxHeight) {
-                maxHeight = $(this).outerHeight(true);
+                maxHeight = $(this).height();
             }
         });
         $("div#column-wrapper .col").height(maxHeight + "px");
@@ -78,12 +76,18 @@ $(document).ready(function(){
                     md.hideModal();
                 })
                 .appendTo(md.modal);
+            md.overlay.click(function(event){
+                if(event.target == this) {
+                    md.hideModal();
+                }
+            });
             md.border.hide();
             md.overlay.hide();
             return md.modal;
         }
 
     };
+
     var exportClick = function(event) {
         event.preventDefault();
         var modal = md.initModal();
@@ -246,7 +250,11 @@ $(document).ready(function(){
                             options = $('<div id="options"></div>')
                                 .addClass("clearfix")
                                 .append('<a href="#" id="export">export</a>')
+<<<<<<< HEAD
                                 .insertBefore("#ajax-status")
+=======
+                                .insertBefore("div#ajax-status")
+>>>>>>> adapter_refactor
                                 .hide()
                                 .find("a#export")
                                 .click(exportClick)

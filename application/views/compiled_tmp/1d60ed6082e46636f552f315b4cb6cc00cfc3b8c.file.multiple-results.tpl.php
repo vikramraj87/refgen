@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-12-11 15:31:03
+<?php /* Smarty version Smarty-3.1.15, created on 2013-12-30 20:41:09
          compiled from "/Users/vikramraj/Sites/Training/rg/application/views/search/multiple-results.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:210781944152a4a973e28843-64770104%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1d60ed6082e46636f552f315b4cb6cc00cfc3b8c' => 
     array (
       0 => '/Users/vikramraj/Sites/Training/rg/application/views/search/multiple-results.tpl',
-      1 => 1386756035,
+      1 => 1388416227,
       2 => 'file',
     ),
   ),
@@ -21,6 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'result' => 0,
     'article' => 0,
+    'citation' => 0,
     'pagination' => 0,
     'query' => 0,
     'page' => 0,
@@ -32,7 +33,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 foreach ($_from as $_smarty_tpl->tpl_vars['article']->key => $_smarty_tpl->tpl_vars['article']->value) {
 $_smarty_tpl->tpl_vars['article']->_loop = true;
 ?>
-                <?php echo $_smarty_tpl->getSubTemplate ("article.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('short'=>true,'article'=>$_smarty_tpl->tpl_vars['article']->value), 0);?>
+                <?php echo $_smarty_tpl->getSubTemplate ("article.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('short'=>true,'article'=>$_smarty_tpl->tpl_vars['article']->value,'citation'=>$_smarty_tpl->tpl_vars['citation']->value), 0);?>
 
                             <?php } ?>
                 <?php if ($_smarty_tpl->tpl_vars['pagination']->value->isRequired()) {?>

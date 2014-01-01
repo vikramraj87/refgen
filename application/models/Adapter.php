@@ -15,21 +15,6 @@ require_once "Articles.php";
  */
 abstract class Adapter {
     /**
-     * @var int maximum authors to include in citation
-     */
-    private $_maxAuthors   = 6;
-
-    /**
-     * @var bool indicates whether to include month in citation
-     */
-    private $_includeMonth = true;
-
-    /**
-     * @var bool indicates whether to include issue number in citation
-     */
-    private $_includeIssue = true;
-
-    /**
      * @var int number of results per page
      */
     private $_maxResults = 10;
@@ -81,14 +66,9 @@ abstract class Adapter {
         $result = null;
 		if(is_array($data)) {
 			if(count($data) === 1) {
-				$result = new Article($data[0], $this->_maxAuthors, $this->_includeMonth, $this->_includeIssue);
+				$result = new Article($data[0]);
 			} else if(count($data) > 1) {
-				$result = new Articles(
-					$data,
-					$this->_maxAuthors,
-					$this->_includeMonth,
-					$this->_includeIssue
-				);
+				$result = new Articles($data);
 			}
 		}
         // if cache enabled, cache the result
@@ -142,45 +122,6 @@ abstract class Adapter {
     }
 
     /**
-     * Sets the maximum authors in citation
-     *
-     * @param int $max
-     * @return $this for chaining
-     */
-    public function setMaxAuthors($max = 6)
-    {
-        $max = (int) $max;
-        if($max > 1) {
-            $this->_maxAuthors = $max;
-        }
-        return $this;
-    }
-
-    /**
-     * Sets whether to include issue number in citation
-     *
-     * @param bool $yn
-     * @return $this for chaining
-     */
-    public function includeIssue($yn = true)
-    {
-        $this->_includeIssue = (bool) $yn;
-        return $this;
-    }
-
-    /**
-     * Sets whether to include month in citation
-     *
-     * @param bool $yn
-     * @return $this for chaining
-     */
-    public function includeMonth($yn = true)
-    {
-        $this->_includeMonth = (bool) $yn;
-        return $this;
-    }
-
-    /**
      * setter for page
      *
      * @param int $page
@@ -205,7 +146,6 @@ abstract class Adapter {
     {
         return $this->_page;
     }
-
 
 
     /**
@@ -312,6 +252,11 @@ abstract class Adapter {
         }
     }
 
+    /**
+     * Search the cache
+     * @param string $id article id
+     * @return Article|null
+     */
     protected function _searchCache($id)
     {
         if(session_id() == "") {

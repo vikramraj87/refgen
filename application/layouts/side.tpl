@@ -2,12 +2,8 @@
                 {if is_array($list) == true && count($list) > 0}
                 	<ol id="citations">
                 	{foreach $list as $article}
-                    	<li class="clear-fix">{$article->vancouverCitation}
-                            <a
-                                href="/search/remove/pmid/{$article->pmid}?redirect={$smarty.server.REQUEST_URI}"
-                                data-pmid="{$article->pmid}">
-                                x
-                            </a>
+                    	<li class="clear-fix">{$citation->getCitation($article)}
+                            <a  href="/search/remove/pmid/{$article->pmid}?redirect={$smarty.server.REQUEST_URI}" data-pmid="{$article->pmid}">x</a>
                         </li>
                     {/foreach}
                     </ol>

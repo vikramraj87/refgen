@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-12-25 18:18:55
+<?php /* Smarty version Smarty-3.1.15, created on 2013-12-31 00:48:15
          compiled from "/Users/vikramraj/Sites/Training/rg/application/layouts/side.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:178544920052a4af88750cc8-10514366%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8db35ab4bce456fbb68ced9d18826777af54fab2' => 
     array (
       0 => '/Users/vikramraj/Sites/Training/rg/application/layouts/side.tpl',
-      1 => 1387975734,
+      1 => 1388430820,
       2 => 'file',
     ),
   ),
@@ -21,6 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'list' => 0,
     'article' => 0,
+    'citation' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -32,16 +33,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 foreach ($_from as $_smarty_tpl->tpl_vars['article']->key => $_smarty_tpl->tpl_vars['article']->value) {
 $_smarty_tpl->tpl_vars['article']->_loop = true;
 ?>
-                    	<li class="clear-fix"><?php echo $_smarty_tpl->tpl_vars['article']->value->vancouverCitation;?>
+                    	<li class="clear-fix"><?php echo $_smarty_tpl->tpl_vars['citation']->value->getCitation($_smarty_tpl->tpl_vars['article']->value);?>
 
-                            <a
-                                href="/search/remove/pmid/<?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
+                            <a  href="/search/remove/pmid/<?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
 ?redirect=<?php echo $_SERVER['REQUEST_URI'];?>
-"
-                                data-pmid="<?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
-">
-                                x
-                            </a>
+" data-pmid="<?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
+">x</a>
                         </li>
                     <?php } ?>
                     </ol>
