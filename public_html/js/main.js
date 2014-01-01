@@ -250,11 +250,7 @@ $(document).ready(function(){
                             options = $('<div id="options"></div>')
                                 .addClass("clearfix")
                                 .append('<a href="#" id="export">export</a>')
-<<<<<<< HEAD
-                                .insertBefore("#ajax-status")
-=======
                                 .insertBefore("div#ajax-status")
->>>>>>> adapter_refactor
                                 .hide()
                                 .find("a#export")
                                 .click(exportClick)

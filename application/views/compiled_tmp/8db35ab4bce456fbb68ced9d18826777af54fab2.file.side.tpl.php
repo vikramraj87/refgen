@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-12-31 00:48:15
+<?php /* Smarty version Smarty-3.1.15, created on 2014-01-01 17:31:43
          compiled from "/Users/vikramraj/Sites/Training/rg/application/layouts/side.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:178544920052a4af88750cc8-10514366%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8db35ab4bce456fbb68ced9d18826777af54fab2' => 
     array (
       0 => '/Users/vikramraj/Sites/Training/rg/application/layouts/side.tpl',
-      1 => 1388430820,
+      1 => 1388577515,
       2 => 'file',
     ),
   ),
