@@ -44,18 +44,10 @@
                     </div>
                     {/if}
                     <footer>
-                        {*
-                        <p>{$article->footer}</p>
-                        *}
                         <p class="pmid">PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{$article->pmid}" target="_blank">{$article->pmid}</a></p>
-
                         <p>Cite by: <span class="citation">{$citation->getCitation($article)}</span></p>
                         <p class="add-to-list">
-                            <a
-                               href="/search/add/pmid/{$article->pmid}?redirect={$smarty.server.REQUEST_URI}"
-                               data-pmid="{$article->pmid}">
-                               +
-                            </a>
+                            <a href="/search/add/pmid/{$article->pmid}?redirect={$smarty.server.REQUEST_URI}" data-pmid="{$article->pmid}">+</a>
                         </p>
                     </footer>
                 </article>

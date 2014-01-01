@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-12-31 00:27:03
+<?php /* Smarty version Smarty-3.1.15, created on 2013-12-31 00:48:15
          compiled from "/Users/vikramraj/Sites/Training/rg/application/views/search/article.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:209372620952a837e0022c71-40596777%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cfbf4d9a2b394b0e3bf80f776537696b45999c80' => 
     array (
       0 => '/Users/vikramraj/Sites/Training/rg/application/views/search/article.tpl',
-      1 => 1388429819,
+      1 => 1388431092,
       2 => 'file',
     ),
   ),
@@ -93,22 +93,16 @@ $_smarty_tpl->tpl_vars['p']->_loop = true;
                     </div>
                     <?php }?>
                     <footer>
-                        
                         <p class="pmid">PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/<?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
 " target="_blank"><?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
 </a></p>
-
                         <p>Cite by: <span class="citation"><?php echo $_smarty_tpl->tpl_vars['citation']->value->getCitation($_smarty_tpl->tpl_vars['article']->value);?>
 </span></p>
                         <p class="add-to-list">
-                            <a
-                               href="/search/add/pmid/<?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
+                            <a href="/search/add/pmid/<?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
 ?redirect=<?php echo $_SERVER['REQUEST_URI'];?>
-"
-                               data-pmid="<?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
-">
-                               +
-                            </a>
+" data-pmid="<?php echo $_smarty_tpl->tpl_vars['article']->value->pmid;?>
+">+</a>
                         </p>
                     </footer>
                 </article><?php }} ?>
